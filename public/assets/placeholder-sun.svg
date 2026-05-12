@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" role="img" aria-label="Roman temple lit by a low winter sun">
+  <rect width="1400" height="900" fill="#171f22"/>
+  <circle cx="1020" cy="230" r="150" fill="#f0c35b"/>
+  <path d="M0 515 L1400 370 L1400 900 L0 900 Z" fill="#25363a"/>
+  <rect x="340" y="300" width="560" height="85" fill="#ded1b1"/>
+  <path d="M300 385 L940 385 L900 430 L340 430 Z" fill="#b76d3a"/>
+  <g fill="#ded1b1"><rect x="385" y="430" width="52" height="280"/><rect x="500" y="430" width="52" height="280"/><rect x="615" y="430" width="52" height="280"/><rect x="730" y="430" width="52" height="280"/><rect x="845" y="430" width="52" height="280"/></g>
+  <rect x="300" y="710" width="640" height="60" fill="#7b2d26"/>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" role="img" aria-label="Olive tree beside a sea-facing palace">
+  <rect width="1400" height="900" fill="#d9e7e5"/>
+  <path d="M0 540 C260 480 470 570 700 500 C940 430 1160 470 1400 390 L1400 900 L0 900 Z" fill="#1f5d62"/>
+  <path d="M0 620 C300 600 470 690 760 625 C1010 570 1150 620 1400 575 L1400 900 L0 900 Z" fill="#f2f0e7"/>
+  <rect x="820" y="360" width="320" height="240" fill="#d8bd82"/>
+  <rect x="860" y="410" width="42" height="190" fill="#7b2d26"/>
+  <rect x="950" y="410" width="42" height="190" fill="#7b2d26"/>
+  <rect x="1040" y="410" width="42" height="190" fill="#7b2d26"/>
+  <path d="M250 670 C330 545 340 435 315 310" fill="none" stroke="#4d3828" stroke-width="38" stroke-linecap="round"/>
+  <g fill="#526d40"><ellipse cx="260" cy="280" rx="170" ry="85"/><ellipse cx="390" cy="330" rx="155" ry="75"/><ellipse cx="180" cy="380" rx="130" ry="70"/></g>
+</svg>

@@ -1,0 +1,12 @@
+{
+  "name": "echoes-antiquity-site",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "dev": "node tools/build.mjs --watch",
+    "serve": "node tools/serve.mjs",
+    "social": "node tools/build.mjs --social-only"
+  }
+}

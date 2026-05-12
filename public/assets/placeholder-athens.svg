@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" role="img" aria-label="Athenian room overlooking marble columns">
+  <rect width="1400" height="900" fill="#efe7d5"/>
+  <rect x="0" y="0" width="1400" height="315" fill="#5d8a93"/>
+  <path d="M0 360 C310 290 590 380 840 310 C1040 255 1210 280 1400 210 L1400 900 L0 900 Z" fill="#e9d6ab"/>
+  <g fill="#f6f4eb"><rect x="170" y="250" width="70" height="440"/><rect x="315" y="250" width="70" height="440"/><rect x="460" y="250" width="70" height="440"/><rect x="605" y="250" width="70" height="440"/><rect x="130" y="210" width="590" height="65"/><rect x="110" y="690" width="630" height="60"/></g>
+  <rect x="885" y="520" width="330" height="160" fill="#7b2d26" opacity=".9"/>
+  <circle cx="1005" cy="450" r="64" fill="#d18b47"/>
+</svg>

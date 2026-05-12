@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" role="img" aria-label="Basalt law stele in a dim gallery">
+  <rect width="1400" height="900" fill="#202124"/>
+  <path d="M0 780 C280 690 610 730 830 650 C1040 575 1200 610 1400 540 L1400 900 L0 900 Z" fill="#57352b"/>
+  <ellipse cx="715" cy="770" rx="260" ry="45" fill="#111" opacity=".45"/>
+  <path d="M600 730 L820 730 L790 260 C785 145 645 145 625 260 Z" fill="#2e3436"/>
+  <circle cx="708" cy="250" r="52" fill="#d4b06a" opacity=".75"/>
+  <g stroke="#c9b99d" opacity=".55"><path d="M645 405 H775"/><path d="M642 438 H778"/><path d="M640 471 H780"/><path d="M638 504 H782"/><path d="M636 537 H784"/><path d="M634 570 H786"/><path d="M632 603 H788"/></g>
+</svg>
