@@ -291,6 +291,7 @@ function layout(site, page) {
   <meta name="twitter:card" content="summary_large_image">
   <link rel="canonical" href="${escapeHtml(absoluteUrl(site, page.route || ""))}">
   <link rel="alternate" type="application/rss+xml" href="/rss.xml" title="${escapeHtml(site.name)}">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="stylesheet" href="/styles.css">
   <script src="/app.js" defer></script>
 </head>
