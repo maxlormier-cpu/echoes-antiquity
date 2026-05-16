@@ -15,6 +15,7 @@ const articleTimelineYears = {
   "aspasia-miletus-athens": -440,
   "caligula-drusilla-obsession-power-deification": 38,
   "death-of-ulysses-telegonos-greek-mythology": -1180,
+  "darius-gaumata-persian-coup-behistun": -522,
   "enheduanna-first-named-author": -2300,
   "greek-trojan-founding-myths-ancient-rome": -753,
   "hammurabi-babylon-law": -1750,
