@@ -7,6 +7,11 @@
     "build": "node tools/build.mjs",
     "dev": "node tools/build.mjs --watch",
     "serve": "node tools/serve.mjs",
-    "social": "node tools/build.mjs --social-only"
+    "social": "node tools/build.mjs --social-only",
+    "deploy": "wrangler deploy",
+    "preview": "wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^4.92.0"
   }
 }
