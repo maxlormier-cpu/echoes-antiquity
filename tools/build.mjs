@@ -283,6 +283,7 @@ function layout(site, page) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${escapeHtml(title)}</title>
   <meta name="description" content="${escapeHtml(description)}">
+  <meta name="google-site-verification" content="XMJF9tTfLXkHZKFZ2GnaWsmC5vsu3knQ_q9CUDMfRLM">
   <meta property="og:title" content="${escapeHtml(title)}">
   <meta property="og:description" content="${escapeHtml(description)}">
   <meta property="og:type" content="${page.type || "website"}">
