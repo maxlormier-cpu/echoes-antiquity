@@ -334,6 +334,64 @@ function renderInlineToc(article) {
   </nav>`;
 }
 
+function stripSectionHeading(section = "") {
+  return section.replace(/^<h2 id="[^"]+">[\s\S]*?<\/h2>\s*/, "").trim();
+}
+
+function extractH2Section(html, id) {
+  const headingPattern = new RegExp(`<h2 id="${escapeRegExp(id)}">[\\s\\S]*?<\\/h2>`);
+  const match = headingPattern.exec(html);
+  if (!match) return { section: "", html };
+  const start = match.index;
+  const remaining = html.slice(start + match[0].length);
+  const nextHeading = remaining.search(/<h2 id="[^"]+">/);
+  const end = nextHeading === -1 ? html.length : start + match[0].length + nextHeading;
+  const section = html.slice(start, end).trim();
+  const nextHtml = `${html.slice(0, start)}${html.slice(end)}`.trim();
+  return { section, html: nextHtml };
+}
+
+function renderSidebarCard(title, body, className = "") {
+  if (!body) return "";
+  const classes = ["article-side-card", className].filter(Boolean).join(" ");
+  return `<section class="${classes}">
+    <h2>${escapeHtml(title)}</h2>
+    ${body}
+  </section>`;
+}
+
+function compactAtAGlance(section) {
+  const rows = [...section.matchAll(/<tr><td>([\s\S]*?)<\/td><td>([\s\S]*?)<\/td><\/tr>/g)];
+  if (!rows.length) return stripSectionHeading(section);
+  return `<dl class="article-glance-list">${rows.map((row) => `<div><dt>${row[1]}</dt><dd>${row[2]}</dd></div>`).join("")}</dl>`;
+}
+
+function renderSidebarToc(article) {
+  const headings = articleTocHeadings(article);
+  if (!headings.length) return "";
+  return `<nav class="article-side-card article-side-toc" aria-label="Table of contents">
+    <h2>Table of contents</h2>
+    <ol>${headings.map((heading) => `<li><a href="#${heading.id}">${escapeHtml(heading.text)}</a></li>`).join("")}</ol>
+  </nav>`;
+}
+
+function splitArticleEditorialBlocks(article, html) {
+  const sections = {};
+  let nextHtml = html.replace("<!--ARTICLE_TOC-->", "");
+  for (const id of ["key-answer", "why-it-matters", "at-a-glance"]) {
+    const extracted = extractH2Section(nextHtml, id);
+    sections[id] = extracted.section;
+    nextHtml = extracted.html;
+  }
+  const sidebar = [
+    renderSidebarCard("Key answer", stripSectionHeading(sections["key-answer"]), "article-side-key"),
+    renderSidebarCard("Why it matters", stripSectionHeading(sections["why-it-matters"]), "article-side-why"),
+    renderSidebarCard("At a glance", compactAtAGlance(sections["at-a-glance"]), "article-side-glance"),
+    renderSidebarToc(article)
+  ].filter(Boolean).join("\n");
+  return { sidebar: sidebar ? `<aside class="article-sidebar" aria-label="Article guide">${sidebar}</aside>` : "", html: nextHtml };
+}
+
 function renderAuthorBio(article, authors) {
   const author = authorProfile(article, authors);
   return `<section class="author-bio" aria-label="Author biography">
@@ -905,12 +963,13 @@ function renderArticle(site, article, articles, authors) {
   const related = articles
     .filter((item) => item.slug !== article.slug && (item.category === article.category || item.period === article.period))
     .slice(0, 3);
-  const hasInlineToc = article.html.includes("<!--ARTICLE_TOC-->");
-  const toc = !hasInlineToc && article.headings.length
-    ? `<aside class="toc"><strong>In this essay</strong>${article.headings.map((heading) => `<a href="#${heading.id}">${escapeHtml(heading.text)}</a>`).join("")}</aside>`
+  const editorial = splitArticleEditorialBlocks(article, removeDuplicateHeroFigure(article.html, article));
+  const fallbackTocHeadings = articleTocHeadings(article);
+  const toc = !editorial.sidebar && fallbackTocHeadings.length
+    ? `<aside class="toc"><strong>In this essay</strong>${fallbackTocHeadings.map((heading) => `<a href="#${heading.id}">${escapeHtml(heading.text)}</a>`).join("")}</aside>`
     : "";
-  const hasSidebar = Boolean(toc);
-  const contentHtml = removeDuplicateHeroFigure(article.html.replace("<!--ARTICLE_TOC-->", renderInlineToc(article)), article);
+  const hasSidebar = Boolean(editorial.sidebar || toc);
+  const contentHtml = editorial.html;
   const description = articleDescription(article);
   const published = articlePublishedDate(article);
   const body = `<article class="article-shell" data-article-slug="${escapeHtml(article.slug)}">
@@ -931,8 +990,8 @@ function renderArticle(site, article, articles, authors) {
     </header>
     ${adBlock(site, "articleTopSlot")}
     <div class="article-layout${hasSidebar ? "" : " no-sidebar"}">
-      ${toc}
-      <div class="article-content">${contentHtml}${renderAuthorBio(article, authors)}</div>
+      ${editorial.sidebar || toc}
+      <div class="article-content article-main">${contentHtml}${renderAuthorBio(article, authors)}</div>
     </div>
     ${adBlock(site, "articleMidSlot")}
   </article>
