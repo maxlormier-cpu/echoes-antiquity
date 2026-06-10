@@ -581,6 +581,7 @@ h3 {
 }
 
 .author-page,
+.trust-page,
 .topic-band,
 .section-heading,
 .article-grid,
@@ -594,6 +595,31 @@ h3 {
 
 .author-page {
   padding-top: 0;
+}
+
+.trust-page {
+  display: grid;
+  gap: 1rem;
+  padding-top: 0;
+}
+
+.trust-block {
+  background: white;
+  border: 1px solid var(--line);
+  padding: clamp(1.25rem, 4vw, 2rem);
+}
+
+.trust-block h2 {
+  color: var(--red);
+  margin-top: 0;
+}
+
+.trust-block p {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.14rem;
+  line-height: 1.75;
+  margin: 1rem 0 0;
+  max-width: 920px;
 }
 
 .author-drawer {
@@ -911,6 +937,19 @@ h3 {
   display: block;
 }
 
+.article-hero-figure {
+  margin: 0;
+}
+
+.article-hero-figure figcaption {
+  color: var(--muted);
+  font-size: .95rem;
+  font-style: italic;
+  line-height: 1.45;
+  margin-top: .6rem;
+  text-align: center;
+}
+
 .article-layout {
   align-items: start;
   display: grid;
@@ -970,6 +1009,67 @@ h3 {
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
+}
+
+.article-content table {
+  border-collapse: collapse;
+  display: block;
+  font-size: 1rem;
+  margin: 1.5rem 0;
+  overflow-x: auto;
+  width: 100%;
+}
+
+.article-content th,
+.article-content td {
+  border: 1px solid var(--line);
+  line-height: 1.55;
+  padding: .75rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.article-content th {
+  background: var(--paper);
+  color: var(--red);
+  font-weight: 900;
+}
+
+.article-inline-toc {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  margin: 2rem 0;
+  padding: 1.25rem;
+}
+
+.article-inline-toc h2 {
+  margin-top: 0;
+}
+
+.article-inline-toc ol {
+  display: grid;
+  gap: .45rem;
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.author-bio {
+  border-top: 1px solid var(--line);
+  margin-top: 2.25rem;
+  padding-top: 1.25rem;
+}
+
+.author-bio strong {
+  color: var(--red);
+  display: block;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.35rem;
+  margin-bottom: .55rem;
+}
+
+.author-bio p {
+  color: var(--muted);
+  margin-bottom: 0;
 }
 
 .article-figure {

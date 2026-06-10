@@ -99,7 +99,12 @@ function imageSrc(value = "") {
 
 function inlineMarkdown(text) {
   return escapeHtml(text)
-    .replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, '<a href="$2" rel="nofollow noopener noreferrer" target="_blank">$1</a>')
+    .replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (_, label, href) => {
+      const internalHref = href.replace(/^https:\/\/echoes-antiquity\.pages\.dev/i, "");
+      if (internalHref.startsWith("/")) return `<a href="${internalHref}">${label}</a>`;
+      if (/^https?:\/\//i.test(href)) return `<a href="${href}" rel="nofollow noopener noreferrer" target="_blank">${label}</a>`;
+      return `<a href="${href}">${label}</a>`;
+    })
     .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
     .replace(/\*(.+?)\*/g, "<em>$1</em>")
     .replace(/`(.+?)`/g, "<code>$1</code>");
@@ -111,6 +116,7 @@ function markdownToHtml(markdown) {
   const headings = [];
   let paragraph = [];
   let list = [];
+  let table = [];
 
   const flushParagraph = () => {
     if (!paragraph.length) return;
@@ -124,11 +130,46 @@ function markdownToHtml(markdown) {
     list = [];
   };
 
+  const tableCells = (line) => line.trim().replace(/^\|/, "").replace(/\|$/, "").split("|").map((cell) => cell.trim());
+  const isTableSeparator = (cells) => cells.length > 0 && cells.every((cell) => /^:?-{3,}:?$/.test(cell.trim()));
+
+  const flushTable = () => {
+    if (!table.length) return;
+    const rows = table.map(tableCells);
+    if (rows.length >= 2 && isTableSeparator(rows[1])) {
+      const header = rows[0];
+      const body = rows.slice(2);
+      html.push(`<table>
+        <thead><tr>${header.map((cell) => `<th>${inlineMarkdown(cell)}</th>`).join("")}</tr></thead>
+        <tbody>${body.map((row) => `<tr>${row.map((cell) => `<td>${inlineMarkdown(cell)}</td>`).join("")}</tr>`).join("")}</tbody>
+      </table>`);
+    } else {
+      html.push(...table.map((line) => `<p>${inlineMarkdown(line)}</p>`));
+    }
+    table = [];
+  };
+
   for (const line of lines) {
     const trimmed = line.trim();
     if (!trimmed) {
       flushParagraph();
       flushList();
+      flushTable();
+      continue;
+    }
+
+    if (trimmed === "[[toc]]") {
+      flushParagraph();
+      flushList();
+      flushTable();
+      html.push("<!--ARTICLE_TOC-->");
+      continue;
+    }
+
+    if (/^\|.+\|$/.test(trimmed)) {
+      flushParagraph();
+      flushList();
+      table.push(trimmed);
       continue;
     }
 
@@ -136,6 +177,7 @@ function markdownToHtml(markdown) {
     if (heading) {
       flushParagraph();
       flushList();
+      flushTable();
       const level = heading[1].length;
       const text = heading[2].trim();
       const id = slugify(text);
@@ -148,10 +190,11 @@ function markdownToHtml(markdown) {
     if (image) {
       flushParagraph();
       flushList();
+      flushTable();
       const [, alt, src, caption] = image;
       html.push(`<figure class="article-figure">
         <a class="image-zoom" href="${escapeHtml(imageSrc(src))}">
-          <img src="${escapeHtml(imageSrc(src))}" alt="${escapeHtml(alt)}" loading="lazy">
+          <img src="${escapeHtml(imageSrc(src))}" alt="${escapeHtml(alt)}"${caption ? ` title="${escapeHtml(caption)}"` : ""} loading="lazy">
         </a>
         ${caption ? `<figcaption>${inlineMarkdown(caption)}</figcaption>` : ""}
       </figure>`);
@@ -160,6 +203,7 @@ function markdownToHtml(markdown) {
 
     if (trimmed.startsWith("- ")) {
       flushParagraph();
+      flushTable();
       list.push(trimmed.slice(2));
       continue;
     }
@@ -167,15 +211,18 @@ function markdownToHtml(markdown) {
     if (trimmed.startsWith("> ")) {
       flushParagraph();
       flushList();
+      flushTable();
       html.push(`<blockquote>${inlineMarkdown(trimmed.slice(2))}</blockquote>`);
       continue;
     }
 
+    flushTable();
     paragraph.push(trimmed);
   }
 
   flushParagraph();
   flushList();
+  flushTable();
   return { html: html.join("\n"), headings };
 }
 
@@ -205,6 +252,10 @@ async function loadSite() {
   return JSON.parse(await readFile(path.join(contentDir, "site.json"), "utf8"));
 }
 
+async function loadAuthors() {
+  return JSON.parse(await readFile(path.join(contentDir, "authors.json"), "utf8"));
+}
+
 async function loadArticles() {
   const files = (await readdir(articleDir)).filter((file) => file.endsWith(".md") && !file.startsWith("_"));
   const articles = [];
@@ -230,6 +281,82 @@ async function loadArticles() {
 function absoluteUrl(site, route = "") {
   if (isAbsoluteUrl(route)) return route;
   return `${site.url.replace(/\/$/, "")}/${route.replace(/^\//, "")}`;
+}
+
+function jsonForHtml(data) {
+  return JSON.stringify(data).replace(/</g, "\\u003c").replace(/>/g, "\\u003e").replace(/&/g, "\\u0026");
+}
+
+function articleDescription(article) {
+  return article.description || article.excerpt || "";
+}
+
+function articleAuthor(article) {
+  return article.author || "Maximilien Lormier";
+}
+
+function authorProfile(article, authors) {
+  const name = articleAuthor(article);
+  return authors[name] || { name, bio: `${name} writes for Echoes of Antiquity.` };
+}
+
+function articlePublishedDate(article) {
+  return article.datePublished || article.date;
+}
+
+function articleModifiedDate(article) {
+  return article.dateModified || article.datePublished || article.date;
+}
+
+function articleTocHeadings(article) {
+  const excluded = new Set(["key-answer", "why-it-matters", "at-a-glance", "table-of-contents", "author-bio"]);
+  return article.headings.filter((heading) => !excluded.has(heading.id));
+}
+
+function renderInlineToc(article) {
+  const headings = articleTocHeadings(article);
+  if (!headings.length) return "";
+  return `<nav class="article-inline-toc" aria-label="Table of contents">
+    <h2>Table of contents</h2>
+    <ol>${headings.map((heading) => `<li><a href="#${heading.id}">${escapeHtml(heading.text)}</a></li>`).join("")}</ol>
+  </nav>`;
+}
+
+function renderAuthorBio(article, authors) {
+  const author = authorProfile(article, authors);
+  return `<section class="author-bio" aria-label="Author biography">
+    <strong>About the author</strong>
+    <p>${escapeHtml(author.bio)}</p>
+  </section>`;
+}
+
+function articleStructuredData(site, article, authors) {
+  const url = absoluteUrl(site, `articles/${article.slug}/`);
+  const image = article.heroImage ? absoluteUrl(site, imageSrc(article.heroImage)) : undefined;
+  const author = authorProfile(article, authors);
+  return {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: article.title,
+    description: articleDescription(article),
+    ...(image ? { image } : {}),
+    author: {
+      "@type": "Person",
+      name: author.name
+    },
+    publisher: {
+      "@type": "Organization",
+      name: site.name,
+      url: site.url
+    },
+    datePublished: articlePublishedDate(article),
+    dateModified: articleModifiedDate(article),
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": url
+    },
+    ...(article.tags?.length ? { keywords: article.tags.join(", ") } : {})
+  };
 }
 
 function renderHeaderMenu(articles) {
@@ -277,6 +404,7 @@ function layout(site, page) {
   const title = page.title === site.name ? site.name : `${page.title} | ${site.name}`;
   const description = page.description || site.description;
   const image = page.image ? absoluteUrl(site, page.image) : "";
+  const url = absoluteUrl(site, page.route || "");
   return `<!doctype html>
 <html lang="${escapeHtml(site.language || "en")}">
 <head>
@@ -288,14 +416,18 @@ function layout(site, page) {
   <meta property="og:title" content="${escapeHtml(title)}">
   <meta property="og:description" content="${escapeHtml(description)}">
   <meta property="og:type" content="${page.type || "website"}">
-  <meta property="og:url" content="${escapeHtml(absoluteUrl(site, page.route || ""))}">
+  <meta property="og:url" content="${escapeHtml(url)}">
   ${image ? `<meta property="og:image" content="${escapeHtml(image)}">` : ""}
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="canonical" href="${escapeHtml(absoluteUrl(site, page.route || ""))}">
+  <meta name="twitter:title" content="${escapeHtml(title)}">
+  <meta name="twitter:description" content="${escapeHtml(description)}">
+  ${image ? `<meta name="twitter:image" content="${escapeHtml(image)}">` : ""}
+  <link rel="canonical" href="${escapeHtml(url)}">
   <link rel="alternate" type="application/rss+xml" href="/rss.xml" title="${escapeHtml(site.name)}">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="stylesheet" href="/styles.css">
   <script src="/app.js" defer></script>
+  ${page.structuredData ? `<script type="application/ld+json">${jsonForHtml(page.structuredData)}</script>` : ""}
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -313,6 +445,7 @@ function layout(site, page) {
       <nav class="top-nav" aria-label="Primary">
         <a href="/timeline/">Timeline</a>
         <a href="/author/">Author</a>
+        <a href="/about/">About</a>
         <a href="/topics/">Topics</a>
         <a href="/popular/">Most Read</a>
         <a href="mailto:${escapeHtml(site.email)}">Contact</a>
@@ -328,6 +461,9 @@ function layout(site, page) {
       <p>${escapeHtml(site.description)}</p>
     </div>
     <div class="footer-links">
+      <a href="/about/">About</a>
+      <a href="/editorial-method/">Editorial Method</a>
+      <a href="/sources-policy/">Sources Policy</a>
       <a href="/sitemap.xml">Sitemap</a>
       <a href="mailto:${escapeHtml(site.email)}">Contact</a>
     </div>
@@ -464,7 +600,8 @@ function renderHome(site, articles) {
   return layout(site, { title: site.name, route: "", description: site.description, menu: renderHeaderMenu(articles), body });
 }
 
-function renderAuthor(site, articles) {
+function renderAuthor(site, articles, authors) {
+  const author = authors["Maximilien Lormier"];
   const body = `<section class="page-hero compact author-hero">
     <p class="eyebrow">Author</p>
     <h1>History, Ancient Culture, and archaeology</h1>
@@ -472,11 +609,129 @@ function renderAuthor(site, articles) {
   </section>
   <section class="author-page">
     <div class="author-copy">
+      <p>${escapeHtml(author.bio)}</p>
       <p>With Echoes of Antiquity, I want to help readers discover or rediscover subjects that fascinate me: forgotten figures, unusual episodes, and ancient questions that still speak to our world.</p>
       <p>The site is built as a space for curiosity, narrative history, and ancient memory, with attention to the civilizations, myths, objects, and people that still deserve to be seen again.</p>
     </div>
   </section>`;
   return layout(site, { title: "Author", route: "author/", description: "About the author of Echoes of Antiquity.", menu: renderHeaderMenu(articles), body });
+}
+
+function renderTrustPage(site, articles, page) {
+  const body = `<section class="page-hero compact trust-hero">
+    <p class="eyebrow">${escapeHtml(page.eyebrow)}</p>
+    <h1>${escapeHtml(page.title)}</h1>
+    <p>${escapeHtml(page.description)}</p>
+  </section>
+  <section class="trust-page">
+    ${page.sections.map((section) => `<section class="trust-block">
+      <h2>${escapeHtml(section.heading)}</h2>
+      ${section.paragraphs.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
+    </section>`).join("")}
+  </section>`;
+  return layout(site, {
+    title: page.title,
+    route: page.route,
+    description: page.description,
+    menu: renderHeaderMenu(articles),
+    body
+  });
+}
+
+function renderAbout(site, articles) {
+  return renderTrustPage(site, articles, {
+    eyebrow: "About",
+    title: "About Echoes of Antiquity",
+    route: "about/",
+    description: "Echoes of Antiquity is an educational history site dedicated to ancient worlds, forgotten figures, power, myth, memory, and sources.",
+    sections: [
+      {
+        heading: "Purpose",
+        paragraphs: [
+          "Echoes of Antiquity is written to help readers discover or rediscover ancient history through long-form narrative essays grounded in sources.",
+          "The site focuses on Mesopotamia, Egypt, Greece, Rome, mythology, political power, religion, forgotten figures, and the ways historical memory is shaped."
+        ]
+      },
+      {
+        heading: "Author",
+        paragraphs: [
+          "The site is created by Maximilien Lormier, a French history teacher, writer, and creator of historical content.",
+          "His work is guided by an educational aim: to make ancient subjects readable, vivid, and intellectually careful without reducing their complexity."
+        ]
+      },
+      {
+        heading: "Editorial Intent",
+        paragraphs: [
+          "Each article aims to preserve a narrative and immersive style while remaining explicit about uncertainty, late traditions, legendary material, and politically shaped sources.",
+          "The goal is not to flatten ancient history into simple summaries, but to make its problems, evidence, and human stakes visible."
+        ]
+      }
+    ]
+  });
+}
+
+function renderEditorialMethod(site, articles) {
+  return renderTrustPage(site, articles, {
+    eyebrow: "Method",
+    title: "Editorial Method",
+    route: "editorial-method/",
+    description: "How Echoes of Antiquity handles ancient sources, modern interpretation, uncertainty, dates, names, places, and illustrative images.",
+    sections: [
+      {
+        heading: "Sources and Interpretation",
+        paragraphs: [
+          "Ancient sources are distinguished from modern interpretation whenever the subject requires it.",
+          "Late, legendary, hostile, or politically oriented traditions are identified as such instead of being treated as neutral evidence."
+        ]
+      },
+      {
+        heading: "Historical Uncertainty",
+        paragraphs: [
+          "Uncertain claims are presented with caution. Dates, names, places, and identifications are checked against reliable references when they are used as factual anchors.",
+          "When evidence is debated, the article should explain the debate or mark the point as uncertain rather than inventing certainty."
+        ]
+      },
+      {
+        heading: "Images",
+        paragraphs: [
+          "Illustrations on the site are used to support reading and atmosphere. When an image is interpretive or AI-generated, it should not be understood as a historical document or archaeological proof.",
+          "Images should keep meaningful alt text and visible captions when possible."
+        ]
+      }
+    ]
+  });
+}
+
+function renderSourcesPolicy(site, articles) {
+  return renderTrustPage(site, articles, {
+    eyebrow: "Sources",
+    title: "Sources Policy",
+    route: "sources-policy/",
+    description: "The source policy for Echoes of Antiquity: primary texts, reliable modern references, institutional resources, and no invented citations.",
+    sections: [
+      {
+        heading: "Preferred Sources",
+        paragraphs: [
+          "When primary sources exist, they are preferred as the starting point for ancient testimony. These may include literary texts, inscriptions, archaeological reports, coins, monuments, or ancient historical traditions.",
+          "Modern references are used to contextualize, compare, and question ancient testimony."
+        ]
+      },
+      {
+        heading: "Reliable References",
+        paragraphs: [
+          "Useful references can include museums, universities, UNESCO, Encyclopaedia Iranica, Britannica, Livius, Perseus, LacusCurtius, ToposText, academic publishers, and comparable resources when relevant.",
+          "The site does not invent sources, links, quotations, dates, or scholarly debates."
+        ]
+      },
+      {
+        heading: "Article Sources",
+        paragraphs: [
+          "Source sections should remain clear and verifiable. When possible, they should distinguish ancient sources, modern studies, and web resources.",
+          "If a source cannot be verified safely, it should be left as a TODO rather than fabricated."
+        ]
+      }
+    ]
+  });
 }
 
 function popularData(articles) {
@@ -627,13 +882,17 @@ function renderSharePanel(site, article) {
         </div>`;
 }
 
-function renderArticle(site, article, articles) {
+function renderArticle(site, article, articles, authors) {
   const related = articles
     .filter((item) => item.slug !== article.slug && (item.category === article.category || item.period === article.period))
     .slice(0, 3);
-  const toc = article.headings.length
+  const contentHtml = article.html.replace("<!--ARTICLE_TOC-->", renderInlineToc(article));
+  const hasInlineToc = article.html.includes("<!--ARTICLE_TOC-->");
+  const toc = !hasInlineToc && article.headings.length
     ? `<aside class="toc"><strong>In this essay</strong>${article.headings.map((heading) => `<a href="#${heading.id}">${escapeHtml(heading.text)}</a>`).join("")}</aside>`
     : "";
+  const description = articleDescription(article);
+  const published = articlePublishedDate(article);
   const body = `<article class="article-shell" data-article-slug="${escapeHtml(article.slug)}">
     <header class="article-hero">
       <div>
@@ -641,16 +900,19 @@ function renderArticle(site, article, articles) {
         <h1>${escapeHtml(article.title)}</h1>
         ${renderSharePanel(site, article)}
         <p>${escapeHtml(article.excerpt)}</p>
-        <div class="meta-row"><span>${formatDate(article.date)}</span><span>${article.readingMinutes} min read</span></div>
+        <div class="meta-row"><span>${formatDate(published)}</span><span>${article.readingMinutes} min read</span></div>
       </div>
-      <a class="image-zoom article-hero-image" href="${escapeHtml(imageSrc(article.heroImage))}">
-        <img src="${escapeHtml(imageSrc(article.heroImage))}" alt="${escapeHtml(article.heroAlt || "")}">
-      </a>
+      <figure class="article-hero-figure">
+        <a class="image-zoom article-hero-image" href="${escapeHtml(imageSrc(article.heroImage))}">
+          <img src="${escapeHtml(imageSrc(article.heroImage))}" alt="${escapeHtml(article.heroAlt || "")}"${article.heroCaption ? ` title="${escapeHtml(article.heroCaption)}"` : ""}>
+        </a>
+        ${article.heroCaption ? `<figcaption>${inlineMarkdown(article.heroCaption)}</figcaption>` : ""}
+      </figure>
     </header>
     ${adBlock(site, "articleTopSlot")}
     <div class="article-layout">
       ${toc}
-      <div class="article-content">${article.html}</div>
+      <div class="article-content">${contentHtml}${renderAuthorBio(article, authors)}</div>
     </div>
     ${adBlock(site, "articleMidSlot")}
   </article>
@@ -659,11 +921,12 @@ function renderArticle(site, article, articles) {
     <div class="article-grid">${related.map((item) => articleCard(item)).join("\n")}</div>
   </section>`;
   return layout(site, {
-    title: article.title,
+    title: article.seoTitle || article.title,
     route: `articles/${article.slug}/`,
-    description: article.excerpt,
+    description,
     image: article.heroImage,
     type: "article",
+    structuredData: articleStructuredData(site, article, authors),
     menu: renderHeaderMenu(articles),
     body
   });
@@ -690,7 +953,8 @@ function renderRss(site, articles) {
 function renderSitemap(site, articles) {
   const topicRoutes = [...new Set(articles.map((article) => article.category))].map((topic) => `topics/${slugify(topic)}/`);
   const timelineRoutes = ["timeline/", ...timelinePeriods.map((period) => periodRoute(period))];
-  const routes = ["", "author/", "topics/", "popular/", ...timelineRoutes, ...topicRoutes, ...articles.map((article) => `articles/${article.slug}/`)];
+  const trustRoutes = ["about/", "editorial-method/", "sources-policy/"];
+  const routes = ["", "author/", ...trustRoutes, "topics/", "popular/", ...timelineRoutes, ...topicRoutes, ...articles.map((article) => `articles/${article.slug}/`)];
   return `<?xml version="1.0" encoding="UTF-8" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${routes.map((route) => `  <url><loc>${escapeHtml(absoluteUrl(site, route))}</loc></url>`).join("\n")}
@@ -729,6 +993,7 @@ async function writeSocial(site, articles) {
 
 async function build() {
   const site = await loadSite();
+  const authors = await loadAuthors();
   const articles = await loadArticles();
   await rm(distDir, { recursive: true, force: true });
   await mkdir(distDir, { recursive: true });
@@ -736,7 +1001,13 @@ async function build() {
     await cp(publicDir, distDir, { recursive: true });
     await writeFile(path.join(distDir, "index.html"), renderHome(site, articles));
     await mkdir(path.join(distDir, "author"), { recursive: true });
-    await writeFile(path.join(distDir, "author", "index.html"), renderAuthor(site, articles));
+    await writeFile(path.join(distDir, "author", "index.html"), renderAuthor(site, articles, authors));
+    await mkdir(path.join(distDir, "about"), { recursive: true });
+    await writeFile(path.join(distDir, "about", "index.html"), renderAbout(site, articles));
+    await mkdir(path.join(distDir, "editorial-method"), { recursive: true });
+    await writeFile(path.join(distDir, "editorial-method", "index.html"), renderEditorialMethod(site, articles));
+    await mkdir(path.join(distDir, "sources-policy"), { recursive: true });
+    await writeFile(path.join(distDir, "sources-policy", "index.html"), renderSourcesPolicy(site, articles));
     await mkdir(path.join(distDir, "topics"), { recursive: true });
     await writeFile(path.join(distDir, "topics", "index.html"), renderTopics(site, articles));
     await mkdir(path.join(distDir, "popular"), { recursive: true });
@@ -757,7 +1028,7 @@ async function build() {
     for (const article of articles) {
       const out = path.join(distDir, "articles", article.slug);
       await mkdir(out, { recursive: true });
-      await writeFile(path.join(out, "index.html"), renderArticle(site, article, articles));
+      await writeFile(path.join(out, "index.html"), renderArticle(site, article, articles, authors));
     }
     await writeFile(path.join(distDir, "rss.xml"), renderRss(site, articles));
     await writeFile(path.join(distDir, "sitemap.xml"), renderSitemap(site, articles));

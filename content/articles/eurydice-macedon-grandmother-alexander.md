@@ -1,6 +1,11 @@
 ---
 title: "Eurydice of Macedon: Alexander the Great's Grandmother and the Argead Dynasty"
+seoTitle: "Eurydice of Macedon: Alexander the Great's Grandmother and the Argead Dynasty"
+description: "Eurydice of Macedon, grandmother of Alexander the Great, reveals how royal women shaped Macedonian succession, Argead legitimacy, and Alexander's inheritance."
 date: "2026-06-09"
+datePublished: "2026-06-09"
+dateModified: "2026-06-09"
+author: "Maximilien Lormier"
 category: "Greek World"
 period: "Classical Macedonia"
 region: "Macedon"
@@ -8,6 +13,7 @@ timelineYear: -370
 excerpt: "Eurydice of Macedon, grandmother of Alexander the Great, reveals how royal women shaped the crises that made Macedonian power possible."
 heroImage: "assets/articles/eurydice-macedon-palace-aigai-grandmother-alexander.jpg"
 heroAlt: "Eurydice I of Macedon in the palace of Aigai, grandmother of Alexander the Great"
+heroCaption: "Eurydice of Macedon, a discreet but decisive figure in the rise of Argead power."
 tags: ["Eurydice of Macedon", "Alexander the Great", "Philip II", "Argead Dynasty", "Aigai", "Macedonia"]
 featured: false
 ---
@@ -17,6 +23,27 @@ Eurydice, grandmother of Alexander the Great, reveals the political role of Mace
 Before Alexander the Great, before the conquests that would carry Macedonian armies to the gates of India, before even Philip II transformed a fragile kingdom into the dominant power of the Greek world, there was a woman in the shadow of the palaces: **Eurydice I of Macedon**.
 
 Her name does not echo with the same force as that of Olympias, Alexander's brilliant and unsettling mother. Nor does it carry the military glory of Philip II. Yet without Eurydice, the royal house of the Argeads might have fallen into one of those political abysses that ancient Macedonia knew so well.
+
+## Key answer
+
+Eurydice I of Macedon was the wife of Amyntas III, the mother of Alexander II, Perdiccas III, and Philip II, and the paternal grandmother of Alexander the Great. In the early fourth century BC, during a period of dynastic instability, she helped preserve the Argead line by mobilizing political and family networks, most famously through her appeal to the Athenian general Iphicrates. Her importance lies less in conquest than in continuity: without the survival of Philip II, Alexander would not have inherited the Macedonian power that made his empire possible.
+
+## Why it matters
+
+Eurydice's story shows that Macedonian power was not built only on battlefields. It also depended on dynastic survival, marriage alliances, court politics, religious memory, and the ability of royal women to defend legitimacy in moments of crisis. Her reputation also reveals how ancient sources could transform politically active women into suspicious or scandalous figures.
+
+## At a glance
+
+| Field | Details |
+| --- | --- |
+| Period | Early fourth century BC, before the rise of Philip II. |
+| Place | Macedon, especially Lyncestis, Aigai, and the royal court. |
+| Main figures | Eurydice I, Amyntas III, Alexander II, Perdiccas III, Philip II, Iphicrates, Ptolemy of Aloros. |
+| Main sources | Aeschines, Justin, Pseudo-Plutarch, Pausanias, inscriptions from Aigai, and modern studies by Elizabeth Donnelly Carney and others. |
+| Historical issue | Eurydice appears between protective dynastic action and hostile later traditions that cast her as dangerous or scandalous. |
+| Legacy | She helped preserve the Argead dynasty that made Philip II's reforms and Alexander's conquests possible. |
+
+[[toc]]
 
 ![Eurydice of Macedon in the palace of Aigai, grandmother of Alexander the Great](assets/articles/eurydice-macedon-palace-aigai-grandmother-alexander.jpg "Eurydice of Macedon, political figure of the Argead dynasty and grandmother of Alexander the Great.")
 
@@ -216,6 +243,12 @@ This evolution does not mean political equality in the modern sense. It means ra
 
 When the king died, when the heir was young, when the line was contested, the queen mother could become a figure of continuity. Eurydice is one of the earliest clear examples of this function. In that sense, she opened a path that later generations would follow with more violence, more ambition, and sometimes more visibility.
 
+## Historical debate
+
+Eurydice's memory is divided between hostile literary traditions and more restrained evidence. Justin presents her through a dark moralizing tradition, while Aeschines preserves a scene in which she acts to protect her sons and the dynasty. The inscriptions from Aigai add a different kind of evidence: they do not tell a story about Eurydice, but they preserve her name and public presence outside later accusations.
+
+The central caution is therefore methodological. Eurydice should not be reduced either to Justin's hostile portrait or to a modern heroic reconstruction. The safest reading is that she was a politically active royal woman whose importance is visible precisely where the sources become tense: succession, legitimacy, family memory, and public religious display.
+
 ## A Fragile Yet Essential Memory
 
 Why does Eurydice remain so little known? First, because the sources are rare. Then, because the history of Alexander tends to draw all the light toward itself. His father Philip himself was long reduced to the role of "preparer" of the conquest. So his grandmother, a woman from the early fourth century BC, had little chance of surviving in popular memory.
@@ -231,6 +264,21 @@ Her power is not institutional in the strict sense. It is relational. She knows 
 The inscriptions of Aigai, the memory of Aeschines, and the possible presence in the Philippeion, if one follows the traditional identification, form three flashes of the same phenomenon. They reveal a woman who acts, names herself, and is remembered. That is rare enough to become the analytical heart of her portrait.
 
 Without her, Philip II might have disappeared amid the violence of succession. Without Philip II, Alexander would not have inherited the army, the power, and the eastern project that made his glory. Eurydice was therefore not merely "the grandmother of Alexander the Great." She was one of the guardians of the dynasty that made Alexander possible.
+
+## What the sources say
+
+Primary sources: Aeschines preserves the episode in which Eurydice appeals to Iphicrates to protect Perdiccas and Philip; Justin transmits a much more hostile tradition; Pseudo-Plutarch links Eurydice to learning and a dedication to the Muses; Pausanias describes the dynastic statue group of the Philippeion at Olympia.
+
+Modern references: Elizabeth Donnelly Carney's work is central for Eurydice and Macedonian royal women. Anne Jacquemin, Chrysoula Saatsoglou-Paliadeli, and Olga Palagia are used here for the inscriptions, the sanctuary context, and the debated identification of Eurydice in the Philippeion.
+
+Historical caution: the article treats Justin's accusations carefully because they belong to a later and moralizing tradition. It also keeps the identification of some monuments and figures cautious when the evidence is debated.
+
+## Further reading on Echoes of Antiquity
+
+- [Alexander the Great: The Untold Story of His Greatest Rival, Memnon of Rhodes](/articles/memnon-rhodes-alexander-greatest-rival/)
+- [Parmenion: The Forgotten General Behind Alexander the Great's Conquests](/articles/parmenion-alexander-general/)
+- [King's Peace (387/386 BC): Artaxerxes II and the Peace of Antalcidas](/articles/kings-peace-antalcidas-387-386-bc/)
+- [The Battle of Marathon: The Clash That Shaped Western Civilization](/articles/battle-of-marathon-clash-shaped-western-civilization/)
 
 ## Sources and Historical Landmarks
 
