@@ -9,7 +9,34 @@ heroImage: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjd-G8bNFS
 heroAlt: "Hannibal crossing the Alps with Carthaginian soldiers and war elephants"
 tags: ["Hannibal", "Carthage", "Rome", "Second Punic War", "Military History"]
 featured: false
+seoTitle: "Hannibal Crossing the Alps: Carthage's Impossible Road to Rome"
+description: "In 218 BCE, Hannibal Barca led Carthage's army, cavalry, and war elephants across the Alps to strike Rome from the unthinkable road."
+datePublished: "2026-01-04"
+dateModified: "2026-01-04"
+author: "Maximilien Lormier"
+timelineYear: -218
+heroCaption: "Hannibal crossing the Alps with Carthaginian soldiers and war elephants"
 ---
+
+## Key answer
+
+This article examines Hannibal Crossing the Alps: Carthage's Impossible Road to Rome. In 218 BCE, Hannibal Barca led Carthage's army, cavalry, and war elephants across the Alps to strike Rome from the unthinkable road. It places the subject in Punic Wars, with a focus on Alps.
+
+## Why it matters
+
+This topic matters because it connects a specific ancient figure, event, myth, or institution to broader questions of power, memory, belief, and historical transmission. It also shows how the ancient past is shaped by the sources that preserve, distort, or silence it.
+
+## At a glance
+
+| Field | Details |
+| --- | --- |
+| Period | Punic Wars |
+| Place | Alps |
+| Historical focus | Hannibal Crossing the Alps: Carthage's Impossible Road to Rome |
+| Article category | Roman World |
+| Source base | See the source list below. |
+
+[[toc]]
 
 ## The Impossible Road
 
@@ -53,7 +80,18 @@ Hannibal's crossing of the Alps was more than a military maneuver; it was a stat
 
 To this day, the echoes of that crossing still cling to the mountain passes. Hannibal did not conquer Rome by the Alpine road, but he conquered the imagination of history. The march proved that strategy can begin where common sense stops, and that an empire's greatest danger may come from the path it believes no enemy can take.
 
-## Sources
+## What the sources say
+
+Primary sources and modern references are listed in the source section below when they are available in the article. Historical caution remains necessary: the article follows the limits of the cited material and avoids adding claims beyond the evidence already presented.
+
+## Further reading on Echoes of Antiquity
+
+- [Julia Drusilla: The Incestuous Tragedy with Caligula](/articles/caligula-drusilla-obsession-power-deification/)
+- [Faustina the Younger: Scandal, Power, and Deification in Marcus Aurelius's Rome](/articles/faustina-younger-marcus-aurelius-scandal-deification/)
+- [Greek and Trojan Origins of Rome: Arcadia, Hercules, Aeneas, and the Myths of the Eternal City](/articles/greek-trojan-founding-myths-ancient-rome/)
+- [Lucretia: The Dawn of the Roman Republic](/articles/lucretia-dawn-roman-republic/)
+
+## Sources and Historical Landmarks
 
 - Polybius, *Histories*, Book III.
 - Livy, *History of Rome*, Books XXI-XXII.

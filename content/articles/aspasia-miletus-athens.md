@@ -9,7 +9,34 @@ heroImage: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4y_ydDjw
 heroAlt: "Aspasia of Miletus in Athens, evoking her intellectual influence in Classical Greece"
 tags: ["Athens", "Women in History", "Pericles", "Philosophy", "Classical Greece"]
 featured: false
+seoTitle: "Aspasia of Miletus: The Brilliant Foreign Woman Who Changed Classical Athens"
+description: "Discover Aspasia of Miletus, influential intellectual and companion of Pericles, a major female figure of Classical Athens in the 5th century BCE."
+datePublished: "2025-11-08"
+dateModified: "2025-11-08"
+author: "Maximilien Lormier"
+timelineYear: -440
+heroCaption: "Aspasia of Miletus in Athens, evoking her intellectual influence in Classical Greece"
 ---
+
+## Key answer
+
+This article examines Aspasia of Miletus: The Brilliant Foreign Woman Who Changed Classical Athens. Discover Aspasia of Miletus, influential intellectual and companion of Pericles, a major female figure of Classical Athens in the 5th century BCE. It places the subject in Classical Greece, with a focus on Athens.
+
+## Why it matters
+
+This topic matters because it connects a specific ancient figure, event, myth, or institution to broader questions of power, memory, belief, and historical transmission. It also shows how the ancient past is shaped by the sources that preserve, distort, or silence it.
+
+## At a glance
+
+| Field | Details |
+| --- | --- |
+| Period | Classical Greece |
+| Place | Athens |
+| Historical focus | Aspasia of Miletus: The Brilliant Foreign Woman Who Changed Classical Athens |
+| Article category | Greek World |
+| Source base | See the source list below. |
+
+[[toc]]
 
 ## Prologue: The Last Night of Pericles
 
@@ -75,7 +102,18 @@ By existing as she did, Aspasia created a breach in the patriarchal Greek order.
 
 Today, she is being rediscovered as a symbol of intellectual freedom. Not as a perfect heroine, but as a real woman, rooted in the tensions of her time, and who, without weapons or title, claimed a form of power that few men themselves could boast of achieving.
 
-## Sources
+## What the sources say
+
+Primary sources and modern references are listed in the source section below when they are available in the article. Historical caution remains necessary: the article follows the limits of the cited material and avoids adding claims beyond the evidence already presented.
+
+## Further reading on Echoes of Antiquity
+
+- [The Battle of Marathon: The Clash That Shaped Western Civilization](/articles/battle-of-marathon-clash-shaped-western-civilization/)
+- [The Death of Ulysses: Telegonos and the Last Prophecy of Ithaca](/articles/death-of-ulysses-telegonos-greek-mythology/)
+- [Eurydice of Macedon: Alexander the Great's Grandmother and the Argead Dynasty](/articles/eurydice-macedon-grandmother-alexander/)
+- [Hera and Zeus: The Divine Vengeance of Heracles' Birth](/articles/hera-zeus-heracles-birth-divine-vengeance/)
+
+## Sources and Historical Landmarks
 
 - Plutarch, *Life of Pericles*.
 - Plato, *Menexenus*.

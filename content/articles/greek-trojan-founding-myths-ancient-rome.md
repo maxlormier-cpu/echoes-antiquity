@@ -9,7 +9,34 @@ heroImage: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKrYEt5Rz
 heroAlt: "Allegory of Roma surrounded by Hercules and the Capitoline Wolf symbolizing the Greek and Trojan origins of ancient Rome"
 tags: ["Rome", "Aeneas", "Hercules", "Evander", "Arcadia", "Foundation Myths"]
 featured: false
+seoTitle: "Greek and Trojan Origins of Rome: Arcadia, Hercules, Aeneas, and the Myths of the Eternal City"
+description: "Rome, between Arcadia, Troy, and Hercules: the Greek founding myths that shaped the identity and memory of the Eternal City."
+datePublished: "2025-12-22"
+dateModified: "2025-12-22"
+author: "Maximilien Lormier"
+timelineYear: -753
+heroCaption: "Allegory of Roma surrounded by Hercules and the Capitoline Wolf symbolizing the Greek and Trojan origins of ancient Rome"
 ---
+
+## Key answer
+
+This article examines Greek and Trojan Origins of Rome: Arcadia, Hercules, Aeneas, and the Myths of the Eternal City. Rome, between Arcadia, Troy, and Hercules: the Greek founding myths that shaped the identity and memory of the Eternal City. It places the subject in Archaic Rome, with a focus on Rome and Latium.
+
+## Why it matters
+
+This topic matters because it connects a specific ancient figure, event, myth, or institution to broader questions of power, memory, belief, and historical transmission. It also shows how the ancient past is shaped by the sources that preserve, distort, or silence it.
+
+## At a glance
+
+| Field | Details |
+| --- | --- |
+| Period | Archaic Rome |
+| Place | Rome and Latium |
+| Historical focus | Greek and Trojan Origins of Rome: Arcadia, Hercules, Aeneas, and the Myths of the Eternal City |
+| Article category | Roman World |
+| Source base | See the source list below. |
+
+[[toc]]
 
 ## Introduction
 
@@ -149,7 +176,18 @@ The Trojan lineage also helped explain the perpetual rivalry between Rome and Ca
 
 Augustan propaganda thus made Aeneas the paragon of Roman virtues: piety, respect for destiny, sacrifice of personal interest for the common good. Poets, sculptors, and architects multiplied images of Aeneas carrying Anchises on his shoulders, symbol of the weight of tradition borne to prepare the future. Thus, collective Roman memory was reoriented: instead of a Rome daughter of Greece, they chose a Rome heir of Troy, destined to dominate the world by divine mandate.
 
-## Sources
+## What the sources say
+
+Primary sources and modern references are listed in the source section below when they are available in the article. Historical caution remains necessary: the article follows the limits of the cited material and avoids adding claims beyond the evidence already presented.
+
+## Further reading on Echoes of Antiquity
+
+- [Julia Drusilla: The Incestuous Tragedy with Caligula](/articles/caligula-drusilla-obsession-power-deification/)
+- [Faustina the Younger: Scandal, Power, and Deification in Marcus Aurelius's Rome](/articles/faustina-younger-marcus-aurelius-scandal-deification/)
+- [Hannibal Crossing the Alps: Carthage's Impossible Road to Rome](/articles/hannibal-crossing-alps-carthage-rome/)
+- [Lucretia: The Dawn of the Roman Republic](/articles/lucretia-dawn-roman-republic/)
+
+## Sources and Historical Landmarks
 
 - **Book:** T. J. Cornell, [*The Beginnings of Rome: Italy and Rome from the Bronze Age to the Punic Wars (c.1000-264 BC)*](https://www.routledge.com/The-Beginnings-of-Rome-Italy-and-Rome-from-the-Bronze-Age-to-the-Punic-Wars-c1000-264-BC/Cornell/p/book/9780415015967), Routledge, 1995.
 - **Web:** Encyclopaedia Britannica, ["Aeneas"](https://www.britannica.com/topic/Aeneas).

@@ -9,7 +9,34 @@ heroImage: "/assets/articles/death-of-ulysses-telegonos-recognition.png"
 heroAlt: "Telegonos kneeling beside the dying Ulysses on the rocky shore of Ithaca"
 tags: ["Ulysses", "Odysseus", "Telegonos", "Ithaca", "Greek Mythology"]
 featured: false
+seoTitle: "The Death of Ulysses: Telegonos and the Last Prophecy of Ithaca"
+description: "The tragic and prophetic death of Ulysses, the last hero of Greek mythology."
+datePublished: "2025-11-27"
+dateModified: "2025-11-27"
+author: "Maximilien Lormier"
+timelineYear: -1180
+heroCaption: "Telegonos kneeling beside the dying Ulysses on the rocky shore of Ithaca"
 ---
+
+## Key answer
+
+This article examines The Death of Ulysses: Telegonos and the Last Prophecy of Ithaca. The tragic and prophetic death of Ulysses, the last hero of Greek mythology. It places the subject in Greek Mythology, with a focus on Ithaca.
+
+## Why it matters
+
+This topic matters because it connects a specific ancient figure, event, myth, or institution to broader questions of power, memory, belief, and historical transmission. It also shows how the ancient past is shaped by the sources that preserve, distort, or silence it.
+
+## At a glance
+
+| Field | Details |
+| --- | --- |
+| Period | Greek Mythology |
+| Place | Ithaca |
+| Historical focus | The Death of Ulysses: Telegonos and the Last Prophecy of Ithaca |
+| Article category | Greek World |
+| Source base | See the source list below. |
+
+[[toc]]
 
 ## Ulysses' Final Odyssey
 
@@ -55,7 +82,18 @@ On a hill overlooking the sea, a funeral pyre was erected. Ulysses's body, wrapp
 
 In a strange twist of fate, Telegonos married Penelope. They had a son, Italos, who would later give his name to Italy.
 
-## Sources
+## What the sources say
+
+Primary sources and modern references are listed in the source section below when they are available in the article. Historical caution remains necessary: the article follows the limits of the cited material and avoids adding claims beyond the evidence already presented.
+
+## Further reading on Echoes of Antiquity
+
+- [Aspasia of Miletus: The Brilliant Foreign Woman Who Changed Classical Athens](/articles/aspasia-miletus-athens/)
+- [The Battle of Marathon: The Clash That Shaped Western Civilization](/articles/battle-of-marathon-clash-shaped-western-civilization/)
+- [Eurydice of Macedon: Alexander the Great's Grandmother and the Argead Dynasty](/articles/eurydice-macedon-grandmother-alexander/)
+- [Hera and Zeus: The Divine Vengeance of Heracles' Birth](/articles/hera-zeus-heracles-birth-divine-vengeance/)
+
+## Sources and Historical Landmarks
 
 - Homer, *Odyssey*, Book XI, Tiresias' prophecy.
 - Proclus, summary of the *Telegony* in the *Chrestomathy*.

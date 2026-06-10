@@ -10,7 +10,33 @@ heroImage: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfZKXxJ70
 heroAlt: "Memnon of Rhodes facing Alexander the Great, Greek mercenary commander in Persian service"
 tags: ["Alexander the Great", "Memnon of Rhodes", "Persian Empire", "Granicus", "Halicarnassus", "Aegean"]
 featured: false
+seoTitle: "Alexander the Great: The Untold Story of His Greatest Rival, Memnon of Rhodes"
+description: "Memnon of Rhodes, the Greek commander in Persian service, nearly turned Alexander's conquest into a trap by striking at his lifeline in the Aegean."
+datePublished: "2026-02-17"
+dateModified: "2026-02-17"
+author: "Maximilien Lormier"
+heroCaption: "Memnon of Rhodes facing Alexander the Great, Greek mercenary commander in Persian service"
 ---
+
+## Key answer
+
+This article examines Alexander the Great: The Untold Story of His Greatest Rival, Memnon of Rhodes. Memnon of Rhodes, the Greek commander in Persian service, nearly turned Alexander's conquest into a trap by striking at his lifeline in the Aegean. It places the subject in Macedonian Empire, with a focus on Rhodes, Asia Minor, and the Aegean.
+
+## Why it matters
+
+This topic matters because it connects a specific ancient figure, event, myth, or institution to broader questions of power, memory, belief, and historical transmission. It also shows how the ancient past is shaped by the sources that preserve, distort, or silence it.
+
+## At a glance
+
+| Field | Details |
+| --- | --- |
+| Period | Macedonian Empire |
+| Place | Rhodes, Asia Minor, and the Aegean |
+| Historical focus | Alexander the Great: The Untold Story of His Greatest Rival, Memnon of Rhodes |
+| Article category | Greek World |
+| Source base | See the source list below. |
+
+[[toc]]
 
 ## The Man Alexander Could Not Ignore
 
@@ -112,7 +138,18 @@ Victor over Darius and many other kings, Alexander would later be linked to Bars
 
 Memnon of Rhodes did not defeat Alexander. But among all his opponents, he was perhaps the one who best understood how Alexander could be defeated.
 
-## Sources
+## What the sources say
+
+Primary sources and modern references are listed in the source section below when they are available in the article. Historical caution remains necessary: the article follows the limits of the cited material and avoids adding claims beyond the evidence already presented.
+
+## Further reading on Echoes of Antiquity
+
+- [Aspasia of Miletus: The Brilliant Foreign Woman Who Changed Classical Athens](/articles/aspasia-miletus-athens/)
+- [The Battle of Marathon: The Clash That Shaped Western Civilization](/articles/battle-of-marathon-clash-shaped-western-civilization/)
+- [The Death of Ulysses: Telegonos and the Last Prophecy of Ithaca](/articles/death-of-ulysses-telegonos-greek-mythology/)
+- [Eurydice of Macedon: Alexander the Great's Grandmother and the Argead Dynasty](/articles/eurydice-macedon-grandmother-alexander/)
+
+## Sources and Historical Landmarks
 
 - Livius, [“Memnon of Rhodes”](https://www.livius.org/articles/person/memnon-of-rhodes/).
 - Arrian, *Anabasis of Alexander*, Books I-II.

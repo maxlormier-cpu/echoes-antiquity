@@ -9,7 +9,34 @@ heroImage: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuIeFRomm
 heroAlt: "Ancient Egyptian women praying on the Nile's bank, facing the Pyramids of Giza, during a ritual of thanks for the flood"
 tags: ["Hapi", "Nile", "Egyptian Religion", "Elephantine", "Nilometers"]
 featured: false
+seoTitle: "Hapi, When the Nile Rose: The Sacred Breath of Water in Ancient Egypt"
+description: "Ancient Egypt turns the Nile divine: Hapi, god of the flood, hymns, nilometers, Elephantine, and water at the heart of power."
+datePublished: "2026-01-10"
+dateModified: "2026-01-10"
+author: "Maximilien Lormier"
+timelineYear: -2500
+heroCaption: "Ancient Egyptian women praying on the Nile's bank, facing the Pyramids of Giza, during a ritual of thanks for the flood"
 ---
+
+## Key answer
+
+This article examines Hapi, When the Nile Rose: The Sacred Breath of Water in Ancient Egypt. Ancient Egypt turns the Nile divine: Hapi, god of the flood, hymns, nilometers, Elephantine, and water at the heart of power. It places the subject in Pharaonic Egypt, with a focus on Nile Valley.
+
+## Why it matters
+
+This topic matters because it connects a specific ancient figure, event, myth, or institution to broader questions of power, memory, belief, and historical transmission. It also shows how the ancient past is shaped by the sources that preserve, distort, or silence it.
+
+## At a glance
+
+| Field | Details |
+| --- | --- |
+| Period | Pharaonic Egypt |
+| Place | Nile Valley |
+| Historical focus | Hapi, When the Nile Rose: The Sacred Breath of Water in Ancient Egypt |
+| Article category | Ancient Egypt |
+| Source base | See the source list below. |
+
+[[toc]]
 
 ## Introduction: When the river rises, the gods hold their breath
 
@@ -177,7 +204,17 @@ Hapi is a divinity of interdependence, because he links climate, agriculture, ad
 
 Hapi becomes the poetic name for a partial rationality: one knows much, but not everything. And perhaps that is where the god still touches: he reminds us that life sometimes depends on a setting beyond us, a right measure to maintain, between too much and too little. In ancient Egypt, this measure had a face, riverbank plants, offerings. It was called Hapi.
 
-## Sources
+## What the sources say
+
+Primary sources and modern references are listed in the source section below when they are available in the article. Historical caution remains necessary: the article follows the limits of the cited material and avoids adding claims beyond the evidence already presented.
+
+## Further reading on Echoes of Antiquity
+
+- [Imhotep and Djoser: Architect of Egypt's Step Pyramid at Saqqara](/articles/imhotep-djoser-step-pyramid-saqqara/)
+- [Osiris, Isis, Set, and Horus: The Egyptian Myth of Death and Resurrection](/articles/osiris-isis-set-horus-resurrection-myth/)
+- [Wenamun: Egypt's Humbling Odyssey to Byblos](/articles/wenamun-egypt-byblos-cedar-odyssey/)
+
+## Sources and Historical Landmarks
 
 - **Book:** Richard H. Wilkinson, [The Complete Gods and Goddesses of Ancient Egypt](https://www.amazon.com/Complete-Gods-Goddesses-Ancient-Egypt/dp/0500284245), Thames & Hudson, 2003.
 - **Web:** The British Museum, [Ancient Egyptian gods and goddesses](https://www.britishmuseum.org/learn/schools/ages-7-11/ancient-egypt/ancient-egyptian-gods-and-goddesses).

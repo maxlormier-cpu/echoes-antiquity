@@ -10,7 +10,33 @@ heroImage: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDkZzrUOh
 heroAlt: "Lucretia of Rome, whose tragedy became a symbol of the fall of the monarchy and the dawn of the Roman Republic"
 tags: ["Lucretia", "Roman Republic", "Roman Kingdom", "Brutus", "Sextus Tarquin", "Tarquinius Superbus", "Rome"]
 featured: false
+seoTitle: "Lucretia: The Dawn of the Roman Republic"
+description: "Lucretia's tragedy became the political spark that Roman tradition placed at the birth of the Republic and the fall of the Tarquins."
+datePublished: "2026-02-05"
+dateModified: "2026-02-05"
+author: "Maximilien Lormier"
+heroCaption: "Lucretia of Rome, whose tragedy became a symbol of the fall of the monarchy and the dawn of the Roman Republic"
 ---
+
+## Key answer
+
+This article examines Lucretia: The Dawn of the Roman Republic. Lucretia's tragedy became the political spark that Roman tradition placed at the birth of the Republic and the fall of the Tarquins. It places the subject in Roman Kingdom, with a focus on Rome and Collatia.
+
+## Why it matters
+
+This topic matters because it connects a specific ancient figure, event, myth, or institution to broader questions of power, memory, belief, and historical transmission. It also shows how the ancient past is shaped by the sources that preserve, distort, or silence it.
+
+## At a glance
+
+| Field | Details |
+| --- | --- |
+| Period | Roman Kingdom |
+| Place | Rome and Collatia |
+| Historical focus | Lucretia: The Dawn of the Roman Republic |
+| Article category | Roman World |
+| Source base | See the source list below. |
+
+[[toc]]
 
 ## A Tragedy Beneath the Seven Hills
 
@@ -120,7 +146,18 @@ Women often become allegories of freedom and revolution. There was Clelia, and n
 
 Lucretia belongs to this long political memory. Whether the details are history, legend, or moral narrative shaped by later Rome, her story expresses a central Roman idea: tyranny becomes intolerable when private injustice reveals public corruption.
 
-## Sources
+## What the sources say
+
+Primary sources and modern references are listed in the source section below when they are available in the article. Historical caution remains necessary: the article follows the limits of the cited material and avoids adding claims beyond the evidence already presented.
+
+## Further reading on Echoes of Antiquity
+
+- [Julia Drusilla: The Incestuous Tragedy with Caligula](/articles/caligula-drusilla-obsession-power-deification/)
+- [Faustina the Younger: Scandal, Power, and Deification in Marcus Aurelius's Rome](/articles/faustina-younger-marcus-aurelius-scandal-deification/)
+- [Greek and Trojan Origins of Rome: Arcadia, Hercules, Aeneas, and the Myths of the Eternal City](/articles/greek-trojan-founding-myths-ancient-rome/)
+- [Hannibal Crossing the Alps: Carthage's Impossible Road to Rome](/articles/hannibal-crossing-alps-carthage-rome/)
+
+## Sources and Historical Landmarks
 
 - Livy, *History of Rome*, Book I.
 - Encyclopaedia Britannica, [“Lucretia”](https://www.britannica.com/topic/Lucretia).

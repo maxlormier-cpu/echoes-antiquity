@@ -10,7 +10,33 @@ heroImage: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWEtdUzrZ
 heroAlt: "Croesus of Lydia surrounded by ancient gold coins and symbols of wealth"
 tags: ["Croesus", "Lydia", "Alyattes", "Coins", "Money", "Sardis", "Delphi"]
 featured: false
+seoTitle: "From Ingots to Coins: The Journey to Being \"Rich as Croesus\""
+description: "From Mesopotamian silver ingots to Lydian coinage, the story of money leads to Croesus, Sardis, Delphi, and the fragile pride of wealth."
+datePublished: "2025-12-09"
+dateModified: "2025-12-09"
+author: "Maximilien Lormier"
+heroCaption: "Croesus of Lydia surrounded by ancient gold coins and symbols of wealth"
 ---
+
+## Key answer
+
+This article examines From Ingots to Coins: The Journey to Being "Rich as Croesus". From Mesopotamian silver ingots to Lydian coinage, the story of money leads to Croesus, Sardis, Delphi, and the fragile pride of wealth. It places the subject in Lydian Kingdom, with a focus on Lydia and Anatolia.
+
+## Why it matters
+
+This topic matters because it connects a specific ancient figure, event, myth, or institution to broader questions of power, memory, belief, and historical transmission. It also shows how the ancient past is shaped by the sources that preserve, distort, or silence it.
+
+## At a glance
+
+| Field | Details |
+| --- | --- |
+| Period | Lydian Kingdom |
+| Place | Lydia and Anatolia |
+| Historical focus | From Ingots to Coins: The Journey to Being "Rich as Croesus" |
+| Article category | Ancient Near East |
+| Source base | See the source list below. |
+
+[[toc]]
 
 ## The Question of Money
 
@@ -58,7 +84,16 @@ This brings us to a maxim often associated with the wisdom of the philosophers: 
 
 Croesus remains the king of wealth not because gold saved him, but because gold failed to protect him from destiny. His story begins with money and ends with wisdom. Between the two lies the whole ancient lesson: value is never only in metal.
 
-## Sources
+## What the sources say
+
+Primary sources and modern references are listed in the source section below when they are available in the article. Historical caution remains necessary: the article follows the limits of the cited material and avoids adding claims beyond the evidence already presented.
+
+## Further reading on Echoes of Antiquity
+
+- [Coup in Persia: Darius Against Gaumata and the Secret of Behistun](/articles/darius-gaumata-persian-coup-behistun/)
+- [Lilith, the First Woman of the Bible and Adam](/articles/lilith-first-woman-bible-adam/)
+
+## Sources and Historical Landmarks
 
 - Encyclopaedia Britannica, [“Croesus”](https://www.britannica.com/biography/Croesus).
 - Encyclopaedia Britannica Money, [“Origins of coins”](https://www.britannica.com/money/coin/Origins-of-coins).

@@ -9,7 +9,34 @@ heroImage: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgj6t-HwEn
 heroAlt: "Minotaur in the labyrinth with a barefoot woman kneeling and hiding behind a wall, ancient Greek myth illustration"
 tags: ["Minotaur", "Knossos", "Crete", "Theseus", "Greek Mythology"]
 featured: false
+seoTitle: "The Minotaur's Labyrinth: Knossos, Myth, and the Memory of Crete"
+description: "The Minotaur's labyrinth: a myth rooted in Knossos, blending archaeology, mythology, and ancient power struggles between Athens and Crete."
+datePublished: "2026-02-24"
+dateModified: "2026-02-24"
+author: "Maximilien Lormier"
+timelineYear: -1600
+heroCaption: "Minotaur in the labyrinth with a barefoot woman kneeling and hiding behind a wall, ancient Greek myth illustration"
 ---
+
+## Key answer
+
+This article examines The Minotaur's Labyrinth: Knossos, Myth, and the Memory of Crete. The Minotaur's labyrinth: a myth rooted in Knossos, blending archaeology, mythology, and ancient power struggles between Athens and Crete. It places the subject in Greek Mythology, with a focus on Knossos.
+
+## Why it matters
+
+This topic matters because it connects a specific ancient figure, event, myth, or institution to broader questions of power, memory, belief, and historical transmission. It also shows how the ancient past is shaped by the sources that preserve, distort, or silence it.
+
+## At a glance
+
+| Field | Details |
+| --- | --- |
+| Period | Greek Mythology |
+| Place | Knossos |
+| Historical focus | The Minotaur's Labyrinth: Knossos, Myth, and the Memory of Crete |
+| Article category | Greek World |
+| Source base | See the source list below. |
+
+[[toc]]
 
 ## Knossos, Historic Site and Mythic Matrix
 
@@ -61,7 +88,18 @@ The power of the Minotaur myth lies in its ability to transcend ages, adapting t
 
 Yet one figure also deserves rehabilitation: Ariadne. Often relegated to the role of helper to the hero, she is in fact the key to success. Without her, Theseus would never have escaped the labyrinth. Her abandonment on Naxos, after securing victory, reveals a cruel pattern. Today, some feminist readings interpret this betrayal as the denial of female power. Ariadne thus becomes a guardian of knowledge, a threshold guide without whom no hero can succeed. Her role is all the more fundamental in that it reminds us that knowledge, intuition, and love are the only true guides in the darkness.
 
-## Sources
+## What the sources say
+
+Primary sources and modern references are listed in the source section below when they are available in the article. Historical caution remains necessary: the article follows the limits of the cited material and avoids adding claims beyond the evidence already presented.
+
+## Further reading on Echoes of Antiquity
+
+- [Aspasia of Miletus: The Brilliant Foreign Woman Who Changed Classical Athens](/articles/aspasia-miletus-athens/)
+- [The Battle of Marathon: The Clash That Shaped Western Civilization](/articles/battle-of-marathon-clash-shaped-western-civilization/)
+- [The Death of Ulysses: Telegonos and the Last Prophecy of Ithaca](/articles/death-of-ulysses-telegonos-greek-mythology/)
+- [Eurydice of Macedon: Alexander the Great's Grandmother and the Argead Dynasty](/articles/eurydice-macedon-grandmother-alexander/)
+
+## Sources and Historical Landmarks
 
 - Apollodorus, [*The Library*](https://www.loebclassics.com/view/LCL121/1921/volume.xml), translated by James G. Frazer, Loeb Classical Library, 1921.
 - Arthur J. Evans, [*The Palace of Minos*](https://archive.org/details/cu31924081667812), Macmillan, 1921-1935.

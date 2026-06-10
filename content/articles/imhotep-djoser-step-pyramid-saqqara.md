@@ -10,7 +10,33 @@ heroImage: "assets/articles/imhotep-step-pyramid-saqqara-portrait.png"
 heroAlt: "Imhotep before the Step Pyramid of Djoser at Saqqara in ancient Egypt"
 tags: ["Imhotep", "Djoser", "Step Pyramid", "Saqqara", "Ancient Egypt", "Egyptian medicine"]
 featured: false
+seoTitle: "Imhotep and Djoser: Architect of Egypt's Step Pyramid at Saqqara"
+description: "Imhotep rose from royal servant to legendary architect, physician, priest, and divine figure whose Step Pyramid changed ancient Egypt forever."
+datePublished: "2026-06-05"
+dateModified: "2026-06-05"
+author: "Maximilien Lormier"
+heroCaption: "Imhotep before the Step Pyramid of Djoser at Saqqara in ancient Egypt"
 ---
+
+## Key answer
+
+This article examines Imhotep and Djoser: Architect of Egypt's Step Pyramid at Saqqara. Imhotep rose from royal servant to legendary architect, physician, priest, and divine figure whose Step Pyramid changed ancient Egypt forever. It places the subject in Early Dynastic Egypt, with a focus on Saqqara.
+
+## Why it matters
+
+This topic matters because it connects a specific ancient figure, event, myth, or institution to broader questions of power, memory, belief, and historical transmission. It also shows how the ancient past is shaped by the sources that preserve, distort, or silence it.
+
+## At a glance
+
+| Field | Details |
+| --- | --- |
+| Period | Early Dynastic Egypt |
+| Place | Saqqara |
+| Historical focus | Imhotep and Djoser: Architect of Egypt's Step Pyramid at Saqqara |
+| Article category | Ancient Egypt |
+| Source base | See the source list below. |
+
+[[toc]]
 
 ## Who Was Imhotep in Ancient Egypt?
 
@@ -104,7 +130,17 @@ He stands as a symbol of the search for knowledge and progress, a figure at the 
 
 ![Imhotep deified as a figure of wisdom and healing in ancient Egypt](assets/articles/imhotep-deified-egyptian-wisdom-medicine.png "The later veneration of Imhotep as a divine figure of wisdom, healing, and ancient Egyptian memory.")
 
-## Sources
+## What the sources say
+
+Primary sources and modern references are listed in the source section below when they are available in the article. Historical caution remains necessary: the article follows the limits of the cited material and avoids adding claims beyond the evidence already presented.
+
+## Further reading on Echoes of Antiquity
+
+- [Hapi, When the Nile Rose: The Sacred Breath of Water in Ancient Egypt](/articles/hapi-nile-sacred-breath-water-ancient-egypt/)
+- [Osiris, Isis, Set, and Horus: The Egyptian Myth of Death and Resurrection](/articles/osiris-isis-set-horus-resurrection-myth/)
+- [Wenamun: Egypt's Humbling Odyssey to Byblos](/articles/wenamun-egypt-byblos-cedar-odyssey/)
+
+## Sources and Historical Landmarks
 
 - Encyclopaedia Britannica, ["Imhotep"](https://www.britannica.com/biography/Imhotep).
 - Encyclopaedia Britannica, ["Step Pyramid of Djoser"](https://www.britannica.com/topic/Step-Pyramid-of-Djoser).

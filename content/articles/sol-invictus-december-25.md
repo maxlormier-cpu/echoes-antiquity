@@ -9,7 +9,34 @@ heroImage: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh29oobogQ
 heroAlt: "Priestess of Sol Invictus at a temple in Rome, 3rd century"
 tags: ["Rome", "Sol Invictus", "Christmas", "Aurelian", "Constantine", "Late Antiquity"]
 featured: false
+seoTitle: "Sol Invictus in Ancient Rome: December 25, the Unconquered Sun, and the Origins of Christmas"
+description: "Sol Invictus rises in the 3rd century. In the 4th, December 25 takes on the Nativity: rivalry, calculation, and symbolic light in Late Rome."
+datePublished: "2026-04-15"
+dateModified: "2026-04-15"
+author: "Maximilien Lormier"
+timelineYear: 274
+heroCaption: "Priestess of Sol Invictus at a temple in Rome, 3rd century"
 ---
+
+## Key answer
+
+This article examines Sol Invictus in Ancient Rome: December 25, the Unconquered Sun, and the Origins of Christmas. Sol Invictus rises in the 3rd century. In the 4th, December 25 takes on the Nativity: rivalry, calculation, and symbolic light in Late Rome. It places the subject in Late Antiquity, with a focus on Rome.
+
+## Why it matters
+
+This topic matters because it connects a specific ancient figure, event, myth, or institution to broader questions of power, memory, belief, and historical transmission. It also shows how the ancient past is shaped by the sources that preserve, distort, or silence it.
+
+## At a glance
+
+| Field | Details |
+| --- | --- |
+| Period | Late Antiquity |
+| Place | Rome |
+| Historical focus | Sol Invictus in Ancient Rome: December 25, the Unconquered Sun, and the Origins of Christmas |
+| Article category | Roman World |
+| Source base | See the source list below. |
+
+[[toc]]
 
 ## The night Rome holds its breath
 
@@ -223,7 +250,18 @@ If we want a gripping and irreproachable story, this is where we must stop: not 
 
 Historically, the suspense lies in the fact that nothing is predetermined: for a long time, several futures remain possible. Rites, laws, sermons, and images answer one another like moves on a chessboard, sometimes visible, sometimes discreet. What triumphs is not only an idea; it is a complete system of practices and collective appointments. And that is precisely where history becomes captivating: it shows how a civilization changes its light without ceasing to fear the night.
 
-## Sources
+## What the sources say
+
+Primary sources and modern references are listed in the source section below when they are available in the article. Historical caution remains necessary: the article follows the limits of the cited material and avoids adding claims beyond the evidence already presented.
+
+## Further reading on Echoes of Antiquity
+
+- [Julia Drusilla: The Incestuous Tragedy with Caligula](/articles/caligula-drusilla-obsession-power-deification/)
+- [Faustina the Younger: Scandal, Power, and Deification in Marcus Aurelius's Rome](/articles/faustina-younger-marcus-aurelius-scandal-deification/)
+- [Greek and Trojan Origins of Rome: Arcadia, Hercules, Aeneas, and the Myths of the Eternal City](/articles/greek-trojan-founding-myths-ancient-rome/)
+- [Hannibal Crossing the Alps: Carthage's Impossible Road to Rome](/articles/hannibal-crossing-alps-carthage-rome/)
+
+## Sources and Historical Landmarks
 
 - Gaston H. Halsberghe, [*The Cult of Sol Invictus*](https://brill.com/display/title/4856?language=en), Brill, 1972.
 - Roger Pearse, [*The Chronography of 354: Introduction to the online edition*](https://www.tertullian.org/fathers/chronography_of_354_00_eintro.htm), tertullian.org, accessed 2025.

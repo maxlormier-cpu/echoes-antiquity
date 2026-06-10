@@ -9,7 +9,34 @@ heroImage: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheknjvYLM
 heroAlt: "Osiris in ancient Egyptian mythology, god of afterlife and resurrection"
 tags: ["Osiris", "Isis", "Set", "Horus", "Afterlife", "Egyptian Mythology"]
 featured: false
+seoTitle: "Osiris, Isis, Set, and Horus: The Egyptian Myth of Death and Resurrection"
+description: "Osiris, murdered by Set and restored by Isis, became Egypt's great god of resurrection, afterlife, and sacred kingship."
+datePublished: "2026-03-15"
+dateModified: "2026-03-15"
+author: "Maximilien Lormier"
+timelineYear: -2400
+heroCaption: "Osiris in ancient Egyptian mythology, god of afterlife and resurrection"
 ---
+
+## Key answer
+
+This article examines Osiris, Isis, Set, and Horus: The Egyptian Myth of Death and Resurrection. Osiris, murdered by Set and restored by Isis, became Egypt's great god of resurrection, afterlife, and sacred kingship. It places the subject in Pharaonic Egypt, with a focus on Egypt.
+
+## Why it matters
+
+This topic matters because it connects a specific ancient figure, event, myth, or institution to broader questions of power, memory, belief, and historical transmission. It also shows how the ancient past is shaped by the sources that preserve, distort, or silence it.
+
+## At a glance
+
+| Field | Details |
+| --- | --- |
+| Period | Pharaonic Egypt |
+| Place | Egypt |
+| Historical focus | Osiris, Isis, Set, and Horus: The Egyptian Myth of Death and Resurrection |
+| Article category | Ancient Egypt |
+| Source base | See the source list below. |
+
+[[toc]]
 
 ## The Murdered King
 
@@ -65,7 +92,17 @@ Horus, as the avenger of his father, became the embodiment of kingship. He was t
 
 Even today, as the sun rises once more on the horizon, Osiris watches. He lingers in the sap of trees, in the current of the Nile, in the hearts of those who believe in the promise of life after death. For as long as his name is whispered, he shall never cease to exist.
 
-## Sources
+## What the sources say
+
+Primary sources and modern references are listed in the source section below when they are available in the article. Historical caution remains necessary: the article follows the limits of the cited material and avoids adding claims beyond the evidence already presented.
+
+## Further reading on Echoes of Antiquity
+
+- [Hapi, When the Nile Rose: The Sacred Breath of Water in Ancient Egypt](/articles/hapi-nile-sacred-breath-water-ancient-egypt/)
+- [Imhotep and Djoser: Architect of Egypt's Step Pyramid at Saqqara](/articles/imhotep-djoser-step-pyramid-saqqara/)
+- [Wenamun: Egypt's Humbling Odyssey to Byblos](/articles/wenamun-egypt-byblos-cedar-odyssey/)
+
+## Sources and Historical Landmarks
 
 - Plutarch, *On Isis and Osiris*.
 - Richard H. Wilkinson, *The Complete Gods and Goddesses of Ancient Egypt*, Thames & Hudson, 2003.

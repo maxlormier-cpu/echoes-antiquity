@@ -9,7 +9,34 @@ heroImage: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFk6oZVyO
 heroAlt: "King's Peace 387/386 BC: Artaxerxes II's rescript at Susa and the Greek embassy, Peace of Antalcidas"
 tags: ["Sparta", "Persia", "Artaxerxes II", "Peace of Antalcidas", "Ionia"]
 featured: false
+seoTitle: "King's Peace (387/386 BC): Artaxerxes II and the Peace of Antalcidas"
+description: "Artaxerxes II lays down the law, returns Ionia to Persia, proclaims autonomy, and makes Sparta the guarantor of a twilight peace."
+datePublished: "2026-01-23"
+dateModified: "2026-01-23"
+author: "Maximilien Lormier"
+timelineYear: -386
+heroCaption: "King's Peace 387/386 BC: Artaxerxes II's rescript at Susa and the Greek embassy, Peace of Antalcidas"
 ---
+
+## Key answer
+
+This article examines King's Peace (387/386 BC): Artaxerxes II and the Peace of Antalcidas. Artaxerxes II lays down the law, returns Ionia to Persia, proclaims autonomy, and makes Sparta the guarantor of a twilight peace. It places the subject in Classical Greece, with a focus on Greece and Persia.
+
+## Why it matters
+
+This topic matters because it connects a specific ancient figure, event, myth, or institution to broader questions of power, memory, belief, and historical transmission. It also shows how the ancient past is shaped by the sources that preserve, distort, or silence it.
+
+## At a glance
+
+| Field | Details |
+| --- | --- |
+| Period | Classical Greece |
+| Place | Greece and Persia |
+| Historical focus | King's Peace (387/386 BC): Artaxerxes II and the Peace of Antalcidas |
+| Article category | Greek World |
+| Source base | See the source list below. |
+
+[[toc]]
 
 ## When silence falls over Greece
 
@@ -210,7 +237,18 @@ Greeks can still win battles, found leagues, invent tactics, but they now know t
 
 You leave a world where you believed yourself protected by memory and honor, and enter a world where geopolitics weighs more heavily. Victory without battle is a particular violence: it leaves no heroic tombs, only a text you must accept. This absence of spectacle makes defeat harder to narrate, therefore easier to repress, until it reappears as revenge. And that may be the last tragic trait: peace installs a lasting humiliation, but also an energy of repair that will work the century from within.
 
-## Sources and further reading
+## What the sources say
+
+Primary sources and modern references are listed in the source section below when they are available in the article. Historical caution remains necessary: the article follows the limits of the cited material and avoids adding claims beyond the evidence already presented.
+
+## Further reading on Echoes of Antiquity
+
+- [Aspasia of Miletus: The Brilliant Foreign Woman Who Changed Classical Athens](/articles/aspasia-miletus-athens/)
+- [The Battle of Marathon: The Clash That Shaped Western Civilization](/articles/battle-of-marathon-clash-shaped-western-civilization/)
+- [The Death of Ulysses: Telegonos and the Last Prophecy of Ithaca](/articles/death-of-ulysses-telegonos-greek-mythology/)
+- [Eurydice of Macedon: Alexander the Great's Grandmother and the Argead Dynasty](/articles/eurydice-macedon-grandmother-alexander/)
+
+## Sources and Historical Landmarks
 
 - **Book:** Paul Cartledge, [Agesilaos and the Crisis of Sparta](https://books.google.com/books/about/Agesilaos_and_the_Crisis_of_Sparta.html?id=wUbQAAAACAAJ), Johns Hopkins University Press, 1987.
 - **Web source:** Encyclopaedia Britannica, ["King's Peace (Peace of Antalcidas)"](https://www.britannica.com/topic/Kings-Peace).

@@ -9,7 +9,34 @@ heroImage: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgGaChKXA
 heroAlt: "Battle of Thermopylae: Leonidas and Spartan warriors in 480 BC"
 tags: ["Thermopylae", "Leonidas", "Sparta", "Persian Wars", "Xerxes"]
 featured: false
+seoTitle: "Thermopylae 480 BC: Leonidas, the 300 Spartans, and the Memory of Sacrifice"
+description: "At Thermopylae, 480 BC, Leonidas and his allies halted the Persian advance: history, archaeology, and the memory of sacrifice."
+datePublished: "2026-04-28"
+dateModified: "2026-04-28"
+author: "Maximilien Lormier"
+timelineYear: -480
+heroCaption: "Battle of Thermopylae: Leonidas and Spartan warriors in 480 BC"
 ---
+
+## Key answer
+
+This article examines Thermopylae 480 BC: Leonidas, the 300 Spartans, and the Memory of Sacrifice. At Thermopylae, 480 BC, Leonidas and his allies halted the Persian advance: history, archaeology, and the memory of sacrifice. It places the subject in Classical Greece, with a focus on Thermopylae.
+
+## Why it matters
+
+This topic matters because it connects a specific ancient figure, event, myth, or institution to broader questions of power, memory, belief, and historical transmission. It also shows how the ancient past is shaped by the sources that preserve, distort, or silence it.
+
+## At a glance
+
+| Field | Details |
+| --- | --- |
+| Period | Classical Greece |
+| Place | Thermopylae |
+| Historical focus | Thermopylae 480 BC: Leonidas, the 300 Spartans, and the Memory of Sacrifice |
+| Article category | Greek World |
+| Source base | See the source list below. |
+
+[[toc]]
 
 ## Ancient Greece Facing Its Fate
 
@@ -95,7 +122,18 @@ Today, a stele still bears Simonides' epitaph: "Stranger, go tell Sparta that we
 
 At Thermopylae, the Greeks lost a battle. But they won eternity. Thermopylae became a model of courage for the Greeks, then for the Romans who drew inspiration from this sacrifice. In the 19th century, European nationalists reused this episode as a symbol of resistance to oppression. Modern cinema, notably with the film *300*, has reinterpreted the battle, blending history and visual mythology. But beyond ideological uses, the story of Thermopylae remains that of men aware of their fate, determined to die for eternity.
 
-## Sources
+## What the sources say
+
+Primary sources and modern references are listed in the source section below when they are available in the article. Historical caution remains necessary: the article follows the limits of the cited material and avoids adding claims beyond the evidence already presented.
+
+## Further reading on Echoes of Antiquity
+
+- [Aspasia of Miletus: The Brilliant Foreign Woman Who Changed Classical Athens](/articles/aspasia-miletus-athens/)
+- [The Battle of Marathon: The Clash That Shaped Western Civilization](/articles/battle-of-marathon-clash-shaped-western-civilization/)
+- [The Death of Ulysses: Telegonos and the Last Prophecy of Ithaca](/articles/death-of-ulysses-telegonos-greek-mythology/)
+- [Eurydice of Macedon: Alexander the Great's Grandmother and the Argead Dynasty](/articles/eurydice-macedon-grandmother-alexander/)
+
+## Sources and Historical Landmarks
 
 - Paul Cartledge, [*Thermopylae: The Battle That Changed the World*](https://www.amazon.com/Thermopylae-Battle-That-Changed-World/dp/1400079187), Vintage, 2007.
 - Encyclopaedia Britannica, [Battle of Thermopylae](https://www.britannica.com/event/Battle-of-Thermopylae).

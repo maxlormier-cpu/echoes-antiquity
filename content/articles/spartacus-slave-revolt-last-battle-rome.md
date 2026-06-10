@@ -9,7 +9,34 @@ heroImage: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigi44rm1p
 heroAlt: "Spartacus and the last stand against Rome: slave revolt, final battle on the Silarus, Via Appia crucifixions"
 tags: ["Spartacus", "Roman Republic", "Slave Revolt", "Crassus", "Via Appia"]
 featured: false
+seoTitle: "Spartacus and the Slave Revolt Against Rome: From Capua to the Via Appia"
+description: "From night over Campania to the Via Appia crucifixions, Spartacus's revolt against Rome: discipline, defiance, and an immortal legacy."
+datePublished: "2026-04-22"
+dateModified: "2026-04-22"
+author: "Maximilien Lormier"
+timelineYear: -71
+heroCaption: "Spartacus and the last stand against Rome: slave revolt, final battle on the Silarus, Via Appia crucifixions"
 ---
+
+## Key answer
+
+This article examines Spartacus and the Slave Revolt Against Rome: From Capua to the Via Appia. From night over Campania to the Via Appia crucifixions, Spartacus's revolt against Rome: discipline, defiance, and an immortal legacy. It places the subject in Roman Republic, with a focus on Italy.
+
+## Why it matters
+
+This topic matters because it connects a specific ancient figure, event, myth, or institution to broader questions of power, memory, belief, and historical transmission. It also shows how the ancient past is shaped by the sources that preserve, distort, or silence it.
+
+## At a glance
+
+| Field | Details |
+| --- | --- |
+| Period | Roman Republic |
+| Place | Italy |
+| Historical focus | Spartacus and the Slave Revolt Against Rome: From Capua to the Via Appia |
+| Article category | Roman World |
+| Source base | See the source list below. |
+
+[[toc]]
 
 ## The Rise of Spartacus
 
@@ -59,7 +86,18 @@ Thus, Spartacus became more than a man. He became a mirror in which every genera
 
 And as long as there are chains, there will be men to break them.
 
-## Sources
+## What the sources say
+
+Primary sources and modern references are listed in the source section below when they are available in the article. Historical caution remains necessary: the article follows the limits of the cited material and avoids adding claims beyond the evidence already presented.
+
+## Further reading on Echoes of Antiquity
+
+- [Julia Drusilla: The Incestuous Tragedy with Caligula](/articles/caligula-drusilla-obsession-power-deification/)
+- [Faustina the Younger: Scandal, Power, and Deification in Marcus Aurelius's Rome](/articles/faustina-younger-marcus-aurelius-scandal-deification/)
+- [Greek and Trojan Origins of Rome: Arcadia, Hercules, Aeneas, and the Myths of the Eternal City](/articles/greek-trojan-founding-myths-ancient-rome/)
+- [Hannibal Crossing the Alps: Carthage's Impossible Road to Rome](/articles/hannibal-crossing-alps-carthage-rome/)
+
+## Sources and Historical Landmarks
 
 - **Book:** Brent D. Shaw, [*Spartacus and the Slave Wars: A Brief History with Documents*](https://store.macmillanlearning.com/us/product/Spartacus-and-the-Slave-Wars/p/1319094821), 2nd ed., Bedford/St. Martin's, 2018.
 - **Web:** Encyclopaedia Britannica, [Spartacus: History, Facts and Influence](https://www.britannica.com/biography/Spartacus-Roman-gladiator).

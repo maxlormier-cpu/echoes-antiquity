@@ -9,7 +9,34 @@ heroImage: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXhAu4wFF
 heroAlt: "Darius overthrowing Gaumata in 522 BCE, before the Behistun inscription turns a coup into Achaemenid imperial legitimacy"
 tags: ["Achaemenid Empire", "Darius I", "Gaumata", "Behistun", "Persia", "Cuneiform"]
 featured: false
+seoTitle: "Coup in Persia: Darius Against Gaumata and the Secret of Behistun"
+description: "In 522 BCE, Darius overthrew Gaumata, crushed rebellion, and carved Behistun to turn a contested coup into Achaemenid imperial truth."
+datePublished: "2026-05-16"
+dateModified: "2026-05-16"
+author: "Maximilien Lormier"
+timelineYear: -522
+heroCaption: "Darius overthrowing Gaumata in 522 BCE, before the Behistun inscription turns a coup into Achaemenid imperial legitimacy"
 ---
+
+## Key answer
+
+This article examines Coup in Persia: Darius Against Gaumata and the Secret of Behistun. In 522 BCE, Darius overthrew Gaumata, crushed rebellion, and carved Behistun to turn a contested coup into Achaemenid imperial truth. It places the subject in Achaemenid Empire, with a focus on Persia.
+
+## Why it matters
+
+This topic matters because it connects a specific ancient figure, event, myth, or institution to broader questions of power, memory, belief, and historical transmission. It also shows how the ancient past is shaped by the sources that preserve, distort, or silence it.
+
+## At a glance
+
+| Field | Details |
+| --- | --- |
+| Period | Achaemenid Empire |
+| Place | Persia |
+| Historical focus | Coup in Persia: Darius Against Gaumata and the Secret of Behistun |
+| Article category | Ancient Near East |
+| Source base | See the source list below. |
+
+[[toc]]
 
 ## A Night of Upheaval: The Achaemenid Empire on the Brink
 
@@ -181,7 +208,16 @@ In the end, the victory over Gaumata is not only a military fact. It becomes the
 
 Behistun brings together text, image, location, and logistical effort. It is a total demonstration. The Achaemenid state does not merely defeat. It knows how to inscribe its victory into matter.
 
-## Sources
+## What the sources say
+
+Primary sources and modern references are listed in the source section below when they are available in the article. Historical caution remains necessary: the article follows the limits of the cited material and avoids adding claims beyond the evidence already presented.
+
+## Further reading on Echoes of Antiquity
+
+- [From Ingots to Coins: The Journey to Being "Rich as Croesus](/articles/from-ingots-to-coins-rich-as-croesus/)
+- [Lilith, the First Woman of the Bible and Adam](/articles/lilith-first-woman-bible-adam/)
+
+## Sources and Historical Landmarks
 
 - [Encyclopaedia Iranica, "Gaumata"](https://www.iranicaonline.org/articles/gaumata/) - useful for the debate over whether Gaumata was an impostor or whether Darius recast Bardiya as one.
 - [Encyclopaedia Iranica, "Bardiya"](https://www.iranicaonline.org/articles/bardiya-son-of-cyrus/) - useful for Bardiya, Smerdis, and the modern historiographical problem.

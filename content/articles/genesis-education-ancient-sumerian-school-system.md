@@ -10,7 +10,33 @@ heroImage: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzlblrrE9
 heroAlt: "Ancient Sumerian school with scribes writing cuneiform on clay tablets"
 tags: ["Sumer", "Education", "Cuneiform", "Scribes", "Edubba", "Nippur", "Mesopotamia"]
 featured: false
+seoTitle: "The Genesis of Education: Unveiling the Ancient Sumerian School System"
+description: "Ancient Sumerian schools, the edubba or House of Tablets, trained scribes through copying, discipline, clay tablets, and the power of writing."
+datePublished: "2025-12-16"
+dateModified: "2025-12-16"
+author: "Maximilien Lormier"
+heroCaption: "Ancient Sumerian school with scribes writing cuneiform on clay tablets"
 ---
+
+## Key answer
+
+This article examines The Genesis of Education: Unveiling the Ancient Sumerian School System. Ancient Sumerian schools, the edubba or House of Tablets, trained scribes through copying, discipline, clay tablets, and the power of writing. It places the subject in Early Dynastic Sumer, with a focus on Sumer and Nippur.
+
+## Why it matters
+
+This topic matters because it connects a specific ancient figure, event, myth, or institution to broader questions of power, memory, belief, and historical transmission. It also shows how the ancient past is shaped by the sources that preserve, distort, or silence it.
+
+## At a glance
+
+| Field | Details |
+| --- | --- |
+| Period | Early Dynastic Sumer |
+| Place | Sumer and Nippur |
+| Historical focus | The Genesis of Education: Unveiling the Ancient Sumerian School System |
+| Article category | Mesopotamia |
+| Source base | See the source list below. |
+
+[[toc]]
 
 ## Why Return to the First Schools?
 
@@ -90,7 +116,16 @@ The Sumerian school seems surprisingly modern in its organization and staff. Wha
 
 Although the lessons were difficult and the discipline extremely harsh, students graduated with training that allowed them to aspire to the highest positions. Finally, the Sumerian school underwent profound ideological and pedagogical changes. From a school training bureaucrats for the major economic centers of the cities, it evolved into an institution dedicated to the study of sciences and literature.
 
-## Sources
+## What the sources say
+
+Primary sources and modern references are listed in the source section below when they are available in the article. Historical caution remains necessary: the article follows the limits of the cited material and avoids adding claims beyond the evidence already presented.
+
+## Further reading on Echoes of Antiquity
+
+- [Enheduanna: The First Named Author in History](/articles/enheduanna-first-named-author/)
+- [Hammurabi of Babylon: Architect of an Empire and Visionary Lawmaker](/articles/hammurabi-babylon-law/)
+
+## Sources and Historical Landmarks
 
 - S. N. Kramer, *History Begins at Sumer*.
 - World History Encyclopedia, [“Mesopotamian Education”](https://www.worldhistory.org/article/2203/mesopotamian-education/).

@@ -9,7 +9,34 @@ heroImage: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSuqYvuce
 heroAlt: "Enheduanna, the first named author, evoked through a Mesopotamian priestess walking toward a ziggurat in the desert"
 tags: ["Mesopotamia", "Women in History", "Literature", "Religion", "Sumer"]
 featured: true
+seoTitle: "Enheduanna: The First Named Author in History"
+description: "From Ur's ziggurats to Inanna's hymns: Enheduanna, high priestess and the world's first named author, speaks across four millennia."
+datePublished: "2026-05-11"
+dateModified: "2026-05-11"
+author: "Maximilien Lormier"
+timelineYear: -2300
+heroCaption: "Enheduanna, the first named author, evoked through a Mesopotamian priestess walking toward a ziggurat in the desert"
 ---
+
+## Key answer
+
+This article examines Enheduanna: The First Named Author in History. From Ur's ziggurats to Inanna's hymns: Enheduanna, high priestess and the world's first named author, speaks across four millennia. It places the subject in Bronze Age, with a focus on Ur.
+
+## Why it matters
+
+This topic matters because it connects a specific ancient figure, event, myth, or institution to broader questions of power, memory, belief, and historical transmission. It also shows how the ancient past is shaped by the sources that preserve, distort, or silence it.
+
+## At a glance
+
+| Field | Details |
+| --- | --- |
+| Period | Bronze Age |
+| Place | Ur |
+| Historical focus | Enheduanna: The First Named Author in History |
+| Article category | Mesopotamia |
+| Source base | See the source list below. |
+
+[[toc]]
 
 ## Rediscovering a Name in Old Notes
 
@@ -83,7 +110,16 @@ When one asks who is the oldest author whose name we know, the gaze inevitably t
 
 In her lines, time bends, abolishing four millennia to let us hear the song of a woman who dared to say "I" in a world that recognized only the "we" of the gods and kings. And perhaps it is there, in this quiet yet revolutionary affirmation of her identity, that Enheduanna's true greatness resides.
 
-## Sources
+## What the sources say
+
+Primary sources and modern references are listed in the source section below when they are available in the article. Historical caution remains necessary: the article follows the limits of the cited material and avoids adding claims beyond the evidence already presented.
+
+## Further reading on Echoes of Antiquity
+
+- [The Genesis of Education: Unveiling the Ancient Sumerian School System](/articles/genesis-education-ancient-sumerian-school-system/)
+- [Hammurabi of Babylon: Architect of an Empire and Visionary Lawmaker](/articles/hammurabi-babylon-law/)
+
+## Sources and Historical Landmarks
 
 - Sophus Helle, [*Enheduana: The Complete Poems of the World's First Author*](https://yalebooks.yale.edu/book/9780300264173/enheduana), Yale University Press, 2023.
 - World History Encyclopedia, [Enheduanna](https://www.worldhistory.org/Enheduanna/).

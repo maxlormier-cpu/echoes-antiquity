@@ -10,7 +10,33 @@ heroImage: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVMWv4a3Y
 heroAlt: "Lycurgus of Sparta, legendary lawgiver of ancient Greece, evoking discipline, austerity, and Spartan laws"
 tags: ["Lycurgus", "Sparta", "Ancient Greece", "Agoge", "Spartan Laws", "Great Rhetra"]
 featured: false
+seoTitle: "Lycurgus and the Laws of Sparta: The Legislator Who Shaped an Immortal City"
+description: "Lycurgus, half history and half legend, gave Sparta its discipline, austerity, mixed constitution, agoge, and terrifying civic ideal."
+datePublished: "2026-02-11"
+dateModified: "2026-02-11"
+author: "Maximilien Lormier"
+heroCaption: "Lycurgus of Sparta, legendary lawgiver of ancient Greece, evoking discipline, austerity, and Spartan laws"
 ---
+
+## Key answer
+
+This article examines Lycurgus and the Laws of Sparta: The Legislator Who Shaped an Immortal City. Lycurgus, half history and half legend, gave Sparta its discipline, austerity, mixed constitution, agoge, and terrifying civic ideal. It places the subject in Archaic Greece, with a focus on Sparta.
+
+## Why it matters
+
+This topic matters because it connects a specific ancient figure, event, myth, or institution to broader questions of power, memory, belief, and historical transmission. It also shows how the ancient past is shaped by the sources that preserve, distort, or silence it.
+
+## At a glance
+
+| Field | Details |
+| --- | --- |
+| Period | Archaic Greece |
+| Place | Sparta |
+| Historical focus | Lycurgus and the Laws of Sparta: The Legislator Who Shaped an Immortal City |
+| Article category | Greek World |
+| Source base | See the source list below. |
+
+[[toc]]
 
 ## The Architect of Spartan Order
 
@@ -94,7 +120,18 @@ He left behind a city shaped by discipline and etched into history, eternal like
 
 Sparta would rise, terrify, inspire, and decline. But the laws attributed to Lycurgus gave it something rarer than victory: a myth of itself.
 
-## Sources
+## What the sources say
+
+Primary sources and modern references are listed in the source section below when they are available in the article. Historical caution remains necessary: the article follows the limits of the cited material and avoids adding claims beyond the evidence already presented.
+
+## Further reading on Echoes of Antiquity
+
+- [Aspasia of Miletus: The Brilliant Foreign Woman Who Changed Classical Athens](/articles/aspasia-miletus-athens/)
+- [The Battle of Marathon: The Clash That Shaped Western Civilization](/articles/battle-of-marathon-clash-shaped-western-civilization/)
+- [The Death of Ulysses: Telegonos and the Last Prophecy of Ithaca](/articles/death-of-ulysses-telegonos-greek-mythology/)
+- [Eurydice of Macedon: Alexander the Great's Grandmother and the Argead Dynasty](/articles/eurydice-macedon-grandmother-alexander/)
+
+## Sources and Historical Landmarks
 
 - Plutarch, [*Life of Lycurgus*](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Lycurgus%2A.html).
 - Herodotus, *Histories*, Book I.

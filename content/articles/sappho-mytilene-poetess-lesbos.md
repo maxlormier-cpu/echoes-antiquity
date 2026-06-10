@@ -10,7 +10,33 @@ heroImage: "assets/articles/sappho-of-mytilene-lyric-poetry-cover.png"
 heroAlt: "Sappho of Mytilene in Art Nouveau style with lyric poetry, Greek columns, Aegean Sea, and Lesbos symbolism"
 tags: ["Sappho", "Lesbos", "Mytilene", "Greek Poetry", "Women in Antiquity", "Lyric Poetry", "Alcaeus"]
 featured: false
+seoTitle: "Sappho of Mytilene: The Poetess of Lesbos Who Defied Time and History"
+description: "Sappho of Mytilene, the lyric poetess of Lesbos, gave ancient Greek poetry a voice of desire, memory, women, music, and immortality."
+datePublished: "2026-04-09"
+dateModified: "2026-04-09"
+author: "Maximilien Lormier"
+heroCaption: "Sappho of Mytilene in Art Nouveau style with lyric poetry, Greek columns, Aegean Sea, and Lesbos symbolism"
 ---
+
+## Key answer
+
+This article examines Sappho of Mytilene: The Poetess of Lesbos Who Defied Time and History. Sappho of Mytilene, the lyric poetess of Lesbos, gave ancient Greek poetry a voice of desire, memory, women, music, and immortality. It places the subject in Archaic Greece, with a focus on Lesbos and Mytilene.
+
+## Why it matters
+
+This topic matters because it connects a specific ancient figure, event, myth, or institution to broader questions of power, memory, belief, and historical transmission. It also shows how the ancient past is shaped by the sources that preserve, distort, or silence it.
+
+## At a glance
+
+| Field | Details |
+| --- | --- |
+| Period | Archaic Greece |
+| Place | Lesbos and Mytilene |
+| Historical focus | Sappho of Mytilene: The Poetess of Lesbos Who Defied Time and History |
+| Article category | Greek World |
+| Source base | See the source list below. |
+
+[[toc]]
 
 ## The Island and the Voice
 
@@ -72,7 +98,18 @@ Today, although most of her poems are lost in the mists of time, the fragments t
 
 Each word, each line that reaches us is like a shard of light, a piece of an ancient puzzle that continues to fascinate and inspire. Sappho is not just a poetess; she is a flame that burns with indomitable passion, a free spirit that traverses the centuries, leaving behind an immortal legacy, a luminous trail in the history of literature.
 
-## Sources
+## What the sources say
+
+Primary sources and modern references are listed in the source section below when they are available in the article. Historical caution remains necessary: the article follows the limits of the cited material and avoids adding claims beyond the evidence already presented.
+
+## Further reading on Echoes of Antiquity
+
+- [Aspasia of Miletus: The Brilliant Foreign Woman Who Changed Classical Athens](/articles/aspasia-miletus-athens/)
+- [The Battle of Marathon: The Clash That Shaped Western Civilization](/articles/battle-of-marathon-clash-shaped-western-civilization/)
+- [The Death of Ulysses: Telegonos and the Last Prophecy of Ithaca](/articles/death-of-ulysses-telegonos-greek-mythology/)
+- [Eurydice of Macedon: Alexander the Great's Grandmother and the Argead Dynasty](/articles/eurydice-macedon-grandmother-alexander/)
+
+## Sources and Historical Landmarks
 
 - Poetry Foundation, [“Sappho”](https://www.poetryfoundation.org/poets/sappho).
 - World History Encyclopedia, [“Sappho of Lesbos”](https://www.worldhistory.org/Sappho_of_Lesbos/).

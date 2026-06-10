@@ -9,7 +9,34 @@ heroImage: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9-JXH6d_
 heroAlt: "Caligula and Drusilla in the imperial court of Rome, evoking power, tragedy, and deification"
 tags: ["Caligula", "Drusilla", "Julio-Claudian Dynasty", "Roman Empire", "Imperial Court"]
 featured: false
+seoTitle: "Julia Drusilla: The Incestuous Tragedy with Caligula"
+description: "Julia Drusilla, beloved sister of Caligula, became a silent figure trapped between imperial obsession, hostile sources, and posthumous deification."
+datePublished: "2025-11-20"
+dateModified: "2025-11-20"
+author: "Maximilien Lormier"
+timelineYear: 38
+heroCaption: "Caligula and Drusilla in the imperial court of Rome, evoking power, tragedy, and deification"
 ---
+
+## Key answer
+
+This article examines Julia Drusilla: The Incestuous Tragedy with Caligula. Julia Drusilla, beloved sister of Caligula, became a silent figure trapped between imperial obsession, hostile sources, and posthumous deification. It places the subject in Roman Empire, with a focus on Rome.
+
+## Why it matters
+
+This topic matters because it connects a specific ancient figure, event, myth, or institution to broader questions of power, memory, belief, and historical transmission. It also shows how the ancient past is shaped by the sources that preserve, distort, or silence it.
+
+## At a glance
+
+| Field | Details |
+| --- | --- |
+| Period | Roman Empire |
+| Place | Rome |
+| Historical focus | Julia Drusilla: The Incestuous Tragedy with Caligula |
+| Article category | Roman World |
+| Source base | See the source list below. |
+
+[[toc]]
 
 ## A Daughter of the Julio-Claudians
 
@@ -63,7 +90,18 @@ But Drusilla, in many ways, remains an ambivalent figure. Although she benefited
 
 Her story is therefore not only the story of Caligula's excess. It is also the story of a woman whose voice disappeared behind accusation, propaganda, dynastic violence, and male power. Drusilla was turned into scandal, then into a goddess, but never allowed to become fully human in the sources that preserved her name.
 
-## Sources
+## What the sources say
+
+Primary sources and modern references are listed in the source section below when they are available in the article. Historical caution remains necessary: the article follows the limits of the cited material and avoids adding claims beyond the evidence already presented.
+
+## Further reading on Echoes of Antiquity
+
+- [Faustina the Younger: Scandal, Power, and Deification in Marcus Aurelius's Rome](/articles/faustina-younger-marcus-aurelius-scandal-deification/)
+- [Greek and Trojan Origins of Rome: Arcadia, Hercules, Aeneas, and the Myths of the Eternal City](/articles/greek-trojan-founding-myths-ancient-rome/)
+- [Hannibal Crossing the Alps: Carthage's Impossible Road to Rome](/articles/hannibal-crossing-alps-carthage-rome/)
+- [Lucretia: The Dawn of the Roman Republic](/articles/lucretia-dawn-roman-republic/)
+
+## Sources and Historical Landmarks
 
 - Suetonius, *The Twelve Caesars*, "Caligula."
 - Cassius Dio, *Roman History*, Book 59.

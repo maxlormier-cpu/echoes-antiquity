@@ -9,7 +9,34 @@ heroImage: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUvAQVAn0
 heroAlt: "Penelope at the window facing Ithaca's sea, waiting for Odysseus in The Odyssey"
 tags: ["Homer", "Odyssey", "Greek Mythology", "Women in History", "Ithaca"]
 featured: false
+seoTitle: "Penelope: Queen of Ithaca and the Myth of Faithful Waiting"
+description: "Penelope, queen of Ithaca, defies the suitors with her shroud and recognizes Odysseus by the olive-bed: a Homeric timeline and analysis."
+datePublished: "2026-04-03"
+dateModified: "2026-04-03"
+author: "Maximilien Lormier"
+timelineYear: -700
+heroCaption: "Penelope at the window facing Ithaca's sea, waiting for Odysseus in The Odyssey"
 ---
+
+## Key answer
+
+This article examines Penelope: Queen of Ithaca and the Myth of Faithful Waiting. Penelope, queen of Ithaca, defies the suitors with her shroud and recognizes Odysseus by the olive-bed: a Homeric timeline and analysis. It places the subject in Archaic Greece, with a focus on Ithaca.
+
+## Why it matters
+
+This topic matters because it connects a specific ancient figure, event, myth, or institution to broader questions of power, memory, belief, and historical transmission. It also shows how the ancient past is shaped by the sources that preserve, distort, or silence it.
+
+## At a glance
+
+| Field | Details |
+| --- | --- |
+| Period | Archaic Greece |
+| Place | Ithaca |
+| Historical focus | Penelope: Queen of Ithaca and the Myth of Faithful Waiting |
+| Article category | Greek World |
+| Source base | See the source list below. |
+
+[[toc]]
 
 ## Penelope's night: waiting as a battlefield
 
@@ -89,7 +116,18 @@ But that is precisely why Homer remains the foundation: the Odyssey gives Penelo
 
 Penelope thus remains a singular figure: a heroine without travel, a sovereign without a pitched battle, but a strategist of time, signs, and thresholds. In a poem of storms, she is the palace's inner storm, the one that lasts.
 
-## Sources
+## What the sources say
+
+Primary sources and modern references are listed in the source section below when they are available in the article. Historical caution remains necessary: the article follows the limits of the cited material and avoids adding claims beyond the evidence already presented.
+
+## Further reading on Echoes of Antiquity
+
+- [Aspasia of Miletus: The Brilliant Foreign Woman Who Changed Classical Athens](/articles/aspasia-miletus-athens/)
+- [The Battle of Marathon: The Clash That Shaped Western Civilization](/articles/battle-of-marathon-clash-shaped-western-civilization/)
+- [The Death of Ulysses: Telegonos and the Last Prophecy of Ithaca](/articles/death-of-ulysses-telegonos-greek-mythology/)
+- [Eurydice of Macedon: Alexander the Great's Grandmother and the Argead Dynasty](/articles/eurydice-macedon-grandmother-alexander/)
+
+## Sources and Historical Landmarks
 
 - Clayton, Barbara. [A Penelopean Poetics: Reweaving the Feminine in Homer's Odyssey](https://www.amazon.com/dp/0739107224). Lexington Books, 2004.
 - Encyclopaedia Britannica. [Penelope](https://www.britannica.com/topic/Penelope-Greek-mythology) (Greek mythology).

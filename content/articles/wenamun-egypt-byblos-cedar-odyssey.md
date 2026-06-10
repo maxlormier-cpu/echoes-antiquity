@@ -9,7 +9,34 @@ heroImage: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcKwKLRvX
 heroAlt: "Wenamun sailing from Egypt to Phoenicia to obtain cedar wood for Amun at Byblos"
 tags: ["Wenamun", "Ancient Egypt", "Byblos", "Phoenicia", "Amun", "Cedar"]
 featured: false
+seoTitle: "Wenamun: Egypt's Humbling Odyssey to Byblos"
+description: "Around 1070 BCE, Wenamun sailed from Thebes to Phoenicia for cedar wood, revealing an Egypt forced to negotiate where it once commanded."
+datePublished: "2026-05-05"
+dateModified: "2026-05-05"
+author: "Maximilien Lormier"
+timelineYear: -1070
+heroCaption: "Wenamun sailing from Egypt to Phoenicia to obtain cedar wood for Amun at Byblos"
 ---
+
+## Key answer
+
+This article examines Wenamun: Egypt's Humbling Odyssey to Byblos. Around 1070 BCE, Wenamun sailed from Thebes to Phoenicia for cedar wood, revealing an Egypt forced to negotiate where it once commanded. It places the subject in Third Intermediate Period, with a focus on Byblos.
+
+## Why it matters
+
+This topic matters because it connects a specific ancient figure, event, myth, or institution to broader questions of power, memory, belief, and historical transmission. It also shows how the ancient past is shaped by the sources that preserve, distort, or silence it.
+
+## At a glance
+
+| Field | Details |
+| --- | --- |
+| Period | Third Intermediate Period |
+| Place | Byblos |
+| Historical focus | Wenamun: Egypt's Humbling Odyssey to Byblos |
+| Article category | Ancient Egypt |
+| Source base | See the source list below. |
+
+[[toc]]
 
 ## Egypt After Empire
 
@@ -69,7 +96,17 @@ The return to Egypt was tinged with bitterness. Wenamun, marked by his ordeals, 
 
 The story of Wenamun is more than an adventure tale. It is one of the clearest literary mirrors of Egypt's decline after the New Kingdom. Through storms, theft, waiting rooms, negotiations, and wounded pride, we see a civilization forced to recognize that prestige alone no longer moved the world.
 
-## Sources
+## What the sources say
+
+Primary sources and modern references are listed in the source section below when they are available in the article. Historical caution remains necessary: the article follows the limits of the cited material and avoids adding claims beyond the evidence already presented.
+
+## Further reading on Echoes of Antiquity
+
+- [Hapi, When the Nile Rose: The Sacred Breath of Water in Ancient Egypt](/articles/hapi-nile-sacred-breath-water-ancient-egypt/)
+- [Imhotep and Djoser: Architect of Egypt's Step Pyramid at Saqqara](/articles/imhotep-djoser-step-pyramid-saqqara/)
+- [Osiris, Isis, Set, and Horus: The Egyptian Myth of Death and Resurrection](/articles/osiris-isis-set-horus-resurrection-myth/)
+
+## Sources and Historical Landmarks
 
 - *The Report of Wenamun*.
 - Miriam Lichtheim, *Ancient Egyptian Literature, Volume II: The New Kingdom*, University of California Press, 1976.

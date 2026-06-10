@@ -9,7 +9,34 @@ heroImage: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpZUncfmG
 heroAlt: "Parmenion, experienced Macedonian general and key strategist in Alexander the Great's Persian campaign"
 tags: ["Alexander the Great", "Macedonia", "Military History", "Parmenion", "Persian Campaign"]
 featured: false
+seoTitle: "Parmenion: The Forgotten General Behind Alexander the Great's Conquests"
+description: "Parmenion, the loyal Macedonian general, was executed without trial, sacrificed in the shadow of Alexander's growing imperial power."
+datePublished: "2026-03-21"
+dateModified: "2026-03-21"
+author: "Maximilien Lormier"
+timelineYear: -330
+heroCaption: "Parmenion, experienced Macedonian general and key strategist in Alexander the Great's Persian campaign"
 ---
+
+## Key answer
+
+This article examines Parmenion: The Forgotten General Behind Alexander the Great's Conquests. Parmenion, the loyal Macedonian general, was executed without trial, sacrificed in the shadow of Alexander's growing imperial power. It places the subject in Macedonian Empire, with a focus on Macedonia.
+
+## Why it matters
+
+This topic matters because it connects a specific ancient figure, event, myth, or institution to broader questions of power, memory, belief, and historical transmission. It also shows how the ancient past is shaped by the sources that preserve, distort, or silence it.
+
+## At a glance
+
+| Field | Details |
+| --- | --- |
+| Period | Macedonian Empire |
+| Place | Macedonia |
+| Historical focus | Parmenion: The Forgotten General Behind Alexander the Great's Conquests |
+| Article category | Greek World |
+| Source base | See the source list below. |
+
+[[toc]]
 
 ## An Old Lion in the Shadow of the Sun
 
@@ -117,7 +144,18 @@ His disappearance marked a rupture: after Parmenion, no general would openly cha
 
 Parmenion's legacy is paradoxically better preserved by those who study logistics and strategy than by Alexander's panegyrists. His absence left a void that was never truly filled in the Macedonian high command. One could say that without him, Alexander's early victories would have been far more perilous. His historical erasure, intentional or not, illustrates the tragic fate of those who build history without reaping its glory.
 
-## Sources
+## What the sources say
+
+Primary sources and modern references are listed in the source section below when they are available in the article. Historical caution remains necessary: the article follows the limits of the cited material and avoids adding claims beyond the evidence already presented.
+
+## Further reading on Echoes of Antiquity
+
+- [Aspasia of Miletus: The Brilliant Foreign Woman Who Changed Classical Athens](/articles/aspasia-miletus-athens/)
+- [The Battle of Marathon: The Clash That Shaped Western Civilization](/articles/battle-of-marathon-clash-shaped-western-civilization/)
+- [The Death of Ulysses: Telegonos and the Last Prophecy of Ithaca](/articles/death-of-ulysses-telegonos-greek-mythology/)
+- [Eurydice of Macedon: Alexander the Great's Grandmother and the Argead Dynasty](/articles/eurydice-macedon-grandmother-alexander/)
+
+## Sources and Historical Landmarks
 
 - Waldemar Heckel and Lawrence A. Tritle, [*Alexander the Great: A New History*](https://www.amazon.com/Alexander-Great-History-Waldemar-Heckel/dp/1405130822), Wiley-Blackwell, 2009.
 - Encyclopaedia Britannica, ["Parmenion"](https://www.britannica.com/biography/Parmenio).

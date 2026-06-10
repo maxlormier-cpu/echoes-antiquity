@@ -10,7 +10,33 @@ heroImage: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8Leh8N7i
 heroAlt: "The Battle of Marathon, Greek hoplites charging Persian forces on the plain of Attica in 490 BCE"
 tags: ["Battle of Marathon", "Athens", "Persian Empire", "Darius I", "Miltiades", "Greco-Persian Wars"]
 featured: false
+seoTitle: "The Battle of Marathon: The Clash That Shaped Western Civilization"
+description: "At Marathon in 490 BCE, Athens and Plataea repelled Darius's Persian army, turning a battlefield in Attica into a symbol of resistance."
+datePublished: "2025-11-14"
+dateModified: "2025-11-14"
+author: "Maximilien Lormier"
+heroCaption: "The Battle of Marathon, Greek hoplites charging Persian forces on the plain of Attica in 490 BCE"
 ---
+
+## Key answer
+
+This article examines The Battle of Marathon: The Clash That Shaped Western Civilization. At Marathon in 490 BCE, Athens and Plataea repelled Darius's Persian army, turning a battlefield in Attica into a symbol of resistance. It places the subject in Classical Greece, with a focus on Marathon, Attica.
+
+## Why it matters
+
+This topic matters because it connects a specific ancient figure, event, myth, or institution to broader questions of power, memory, belief, and historical transmission. It also shows how the ancient past is shaped by the sources that preserve, distort, or silence it.
+
+## At a glance
+
+| Field | Details |
+| --- | --- |
+| Period | Classical Greece |
+| Place | Marathon, Attica |
+| Historical focus | The Battle of Marathon: The Clash That Shaped Western Civilization |
+| Article category | Greek World |
+| Source base | See the source list below. |
+
+[[toc]]
 
 ## The Day Marathon Entered History
 
@@ -80,7 +106,18 @@ Stories of the battle, passed down from generation to generation, inspired civic
 
 The exploits of the Greek soldiers, their courage, and their determination to protect their homeland became examples to follow. This battle also helped cement the idea that Greek city-states could unite against a common enemy, laying the foundations of a collective identity that would matter even more during the Persian invasion of 480 BC.
 
-## Sources
+## What the sources say
+
+Primary sources and modern references are listed in the source section below when they are available in the article. Historical caution remains necessary: the article follows the limits of the cited material and avoids adding claims beyond the evidence already presented.
+
+## Further reading on Echoes of Antiquity
+
+- [Aspasia of Miletus: The Brilliant Foreign Woman Who Changed Classical Athens](/articles/aspasia-miletus-athens/)
+- [The Death of Ulysses: Telegonos and the Last Prophecy of Ithaca](/articles/death-of-ulysses-telegonos-greek-mythology/)
+- [Eurydice of Macedon: Alexander the Great's Grandmother and the Argead Dynasty](/articles/eurydice-macedon-grandmother-alexander/)
+- [Hera and Zeus: The Divine Vengeance of Heracles' Birth](/articles/hera-zeus-heracles-birth-divine-vengeance/)
+
+## Sources and Historical Landmarks
 
 - Herodotus, *Histories*, Book VI.
 - Encyclopaedia Britannica, [“Battle of Marathon”](https://www.britannica.com/event/Battle-of-Marathon).

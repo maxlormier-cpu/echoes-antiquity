@@ -9,7 +9,34 @@ heroImage: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixHITezNg
 heroAlt: "Pausanias travel guide through Ancient Greece ruins and sacred places"
 tags: ["Pausanias", "Ancient Greece", "Travel Writing", "Sanctuaries", "Roman Greece"]
 featured: false
+seoTitle: "Pausanias: Travel Writer Through Ancient Greece's Sacred Memory"
+description: "Travel through Ancient Greece with Pausanias, the first travel writer in history: a journey of ruins, myths, and sacred memory."
+datePublished: "2026-03-27"
+dateModified: "2026-03-27"
+author: "Maximilien Lormier"
+timelineYear: 160
+heroCaption: "Pausanias travel guide through Ancient Greece ruins and sacred places"
 ---
+
+## Key answer
+
+This article examines Pausanias: Travel Writer Through Ancient Greece's Sacred Memory. Travel through Ancient Greece with Pausanias, the first travel writer in history: a journey of ruins, myths, and sacred memory. It places the subject in Roman Greece, with a focus on Greece.
+
+## Why it matters
+
+This topic matters because it connects a specific ancient figure, event, myth, or institution to broader questions of power, memory, belief, and historical transmission. It also shows how the ancient past is shaped by the sources that preserve, distort, or silence it.
+
+## At a glance
+
+| Field | Details |
+| --- | --- |
+| Period | Roman Greece |
+| Place | Greece |
+| Historical focus | Pausanias: Travel Writer Through Ancient Greece's Sacred Memory |
+| Article category | Greek World |
+| Source base | See the source list below. |
+
+[[toc]]
 
 ## When Memory Becomes Travel
 
@@ -61,6 +88,13 @@ Yet he is not a neutral observer. He chooses, sorts, comments. He distrusts over
 
 Pausanias' work is at once geographical, historical, and spiritual. He invents nothing but selects with care what he reports, rejecting the exaggerations of storytellers and the silences of officials. He follows a personal logic that combines rigor and intuition. He loves myths, but never repeats them without perspective. He analyzes them, compares them, questions them like an investigator. He sometimes quotes ancient poets, such as Homer or Hesiod, to show the permanence of these tales. He also relies on oral traditions, sometimes contradictory, which he does not try to unify. This refusal to simplify makes him a rare witness. His text is not fixed: it vibrates with disparate voices, like an echo of the Greek people. Thanks to him, it is the stories of the humble, the elders, the obscure priests that find their place in history.
 
-## Sources
+## Further reading on Echoes of Antiquity
+
+- [Aspasia of Miletus: The Brilliant Foreign Woman Who Changed Classical Athens](/articles/aspasia-miletus-athens/)
+- [The Battle of Marathon: The Clash That Shaped Western Civilization](/articles/battle-of-marathon-clash-shaped-western-civilization/)
+- [The Death of Ulysses: Telegonos and the Last Prophecy of Ithaca](/articles/death-of-ulysses-telegonos-greek-mythology/)
+- [Eurydice of Macedon: Alexander the Great's Grandmother and the Argead Dynasty](/articles/eurydice-macedon-grandmother-alexander/)
+
+## Sources and Historical Landmarks
 
 - World History Encyclopedia, ["Pausanias"](https://www.worldhistory.org/Pausanias_%28Geographer%29/).

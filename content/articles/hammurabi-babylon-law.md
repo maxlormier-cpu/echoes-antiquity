@@ -10,7 +10,33 @@ heroImage: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgH3D8Y7Jc
 heroAlt: "Hammurabi of Babylon, ancient Mesopotamian king, lawmaker, and builder of empire"
 tags: ["Babylon", "Hammurabi", "Code of Hammurabi", "Law", "Marduk", "Mesopotamia"]
 featured: false
+seoTitle: "Hammurabi of Babylon: Architect of an Empire and Visionary Lawmaker"
+description: "Hammurabi shaped Babylonian power through law, conquest, administration, and a political imagination that still echoes today."
+datePublished: "2025-12-28"
+dateModified: "2025-12-28"
+author: "Maximilien Lormier"
+heroCaption: "Hammurabi of Babylon, ancient Mesopotamian king, lawmaker, and builder of empire"
 ---
+
+## Key answer
+
+This article examines Hammurabi of Babylon: Architect of an Empire and Visionary Lawmaker. Hammurabi shaped Babylonian power through law, conquest, administration, and a political imagination that still echoes today. It places the subject in Bronze Age, with a focus on Babylon.
+
+## Why it matters
+
+This topic matters because it connects a specific ancient figure, event, myth, or institution to broader questions of power, memory, belief, and historical transmission. It also shows how the ancient past is shaped by the sources that preserve, distort, or silence it.
+
+## At a glance
+
+| Field | Details |
+| --- | --- |
+| Period | Bronze Age |
+| Place | Babylon |
+| Historical focus | Hammurabi of Babylon: Architect of an Empire and Visionary Lawmaker |
+| Article category | Mesopotamia |
+| Source base | See the source list below. |
+
+[[toc]]
 
 ## A King Between Force and Justice
 
@@ -114,7 +140,16 @@ Like a star shining in the firmament of history, Hammurabi's Babylon became a be
 
 Hammurabi's greatness lies in this fusion: conqueror, administrator, builder, lawgiver, and religious strategist. He did not merely expand Babylon. He gave it the structures of empire and the memory of justice.
 
-## Sources
+## What the sources say
+
+Primary sources and modern references are listed in the source section below when they are available in the article. Historical caution remains necessary: the article follows the limits of the cited material and avoids adding claims beyond the evidence already presented.
+
+## Further reading on Echoes of Antiquity
+
+- [Enheduanna: The First Named Author in History](/articles/enheduanna-first-named-author/)
+- [The Genesis of Education: Unveiling the Ancient Sumerian School System](/articles/genesis-education-ancient-sumerian-school-system/)
+
+## Sources and Historical Landmarks
 
 - Encyclopaedia Britannica, [“Hammurabi”](https://www.britannica.com/biography/Hammurabi).
 - Encyclopaedia Britannica, [“Code of Hammurabi”](https://www.britannica.com/topic/Code-of-Hammurabi).

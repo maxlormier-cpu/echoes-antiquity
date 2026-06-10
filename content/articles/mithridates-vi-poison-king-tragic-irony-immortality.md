@@ -10,7 +10,33 @@ heroImage: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZTVd5w7C
 heroAlt: "Mithridates VI of Pontus, the Poison King, surrounded by herbs, venoms, and the dark symbolism of immortality"
 tags: ["Mithridates VI", "Pontus", "Mithridatic Wars", "Rome", "Poison", "Hellenistic World"]
 featured: false
+seoTitle: "Mithridates VI: The Poison King and the Tragic Irony of Immortality"
+description: "Mithridates VI of Pontus, Rome's relentless enemy, tried to conquer death through poison, only to meet the cruel irony of his own immunity."
+datePublished: "2026-03-02"
+dateModified: "2026-03-02"
+author: "Maximilien Lormier"
+heroCaption: "Mithridates VI of Pontus, the Poison King, surrounded by herbs, venoms, and the dark symbolism of immortality"
 ---
+
+## Key answer
+
+This article examines Mithridates VI: The Poison King and the Tragic Irony of Immortality. Mithridates VI of Pontus, Rome's relentless enemy, tried to conquer death through poison, only to meet the cruel irony of his own immunity. It places the subject in Hellenistic Kingdoms, with a focus on Pontus and the Black Sea.
+
+## Why it matters
+
+This topic matters because it connects a specific ancient figure, event, myth, or institution to broader questions of power, memory, belief, and historical transmission. It also shows how the ancient past is shaped by the sources that preserve, distort, or silence it.
+
+## At a glance
+
+| Field | Details |
+| --- | --- |
+| Period | Hellenistic Kingdoms |
+| Place | Pontus and the Black Sea |
+| Historical focus | Mithridates VI: The Poison King and the Tragic Irony of Immortality |
+| Article category | Greek World |
+| Source base | See the source list below. |
+
+[[toc]]
 
 ## The Kingdom by the Black Sea
 
@@ -66,7 +92,18 @@ Mithridates VI had tried to master death by studying it, tasting it, and trainin
 
 Yet the weapon he had conquered refused him at the very moment he needed it most. His immunity, built as a shield against assassination, became the last prison of his body. There lies the tragic irony of Mithridates: he sought to make himself untouchable, and in the end, even death by poison would not obey him.
 
-## Sources
+## What the sources say
+
+Primary sources and modern references are listed in the source section below when they are available in the article. Historical caution remains necessary: the article follows the limits of the cited material and avoids adding claims beyond the evidence already presented.
+
+## Further reading on Echoes of Antiquity
+
+- [Aspasia of Miletus: The Brilliant Foreign Woman Who Changed Classical Athens](/articles/aspasia-miletus-athens/)
+- [The Battle of Marathon: The Clash That Shaped Western Civilization](/articles/battle-of-marathon-clash-shaped-western-civilization/)
+- [The Death of Ulysses: Telegonos and the Last Prophecy of Ithaca](/articles/death-of-ulysses-telegonos-greek-mythology/)
+- [Eurydice of Macedon: Alexander the Great's Grandmother and the Argead Dynasty](/articles/eurydice-macedon-grandmother-alexander/)
+
+## Sources and Historical Landmarks
 
 - Appian, [*The Mithridatic Wars*](https://www.livius.org/sources/content/appian/appian-the-mithridatic-wars/), translated by Horace White, via Livius.
 - Encyclopaedia Britannica, [“Mithradates VI Eupator”](https://www.britannica.com/biography/Mithradates-VI-Eupator).

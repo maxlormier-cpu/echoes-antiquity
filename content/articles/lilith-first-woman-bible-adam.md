@@ -9,7 +9,34 @@ heroImage: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQil_KUOl
 heroAlt: "Lilith with Adam and Eve, evoking Genesis, Kabbalah, and ancient myth"
 tags: ["Lilith", "Genesis", "Adam", "Eve", "Kabbalah", "Women in Myth"]
 featured: false
+seoTitle: "Lilith, the First Woman of the Bible and Adam"
+description: "Lilith, Adam, Eve, Genesis, and later Jewish traditions: a journey through double creation, rebellion, patriarchy, and myth."
+datePublished: "2026-01-29"
+dateModified: "2026-01-29"
+author: "Maximilien Lormier"
+timelineYear: -600
+heroCaption: "Lilith with Adam and Eve, evoking Genesis, Kabbalah, and ancient myth"
 ---
+
+## Key answer
+
+This article examines Lilith, the First Woman of the Bible and Adam. Lilith, Adam, Eve, Genesis, and later Jewish traditions: a journey through double creation, rebellion, patriarchy, and myth. It places the subject in Biblical Traditions, with a focus on Eden.
+
+## Why it matters
+
+This topic matters because it connects a specific ancient figure, event, myth, or institution to broader questions of power, memory, belief, and historical transmission. It also shows how the ancient past is shaped by the sources that preserve, distort, or silence it.
+
+## At a glance
+
+| Field | Details |
+| --- | --- |
+| Period | Biblical Traditions |
+| Place | Eden |
+| Historical focus | Lilith, the First Woman of the Bible and Adam |
+| Article category | Ancient Near East |
+| Source base | See the source list below. |
+
+[[toc]]
 
 ## The Puzzle of the Two Creations
 
@@ -85,7 +112,16 @@ Finally, Lilith becomes one of the great figures of the succubus: the female dem
 
 And yet, modernity has reversed the image once more. Lilith is no longer only a demon. She has become a symbol of refusal, autonomy, and female power. The woman who would not submit to Adam returns not as a monster, but as a question: what if the first sin, in patriarchal memory, was not disobedience to God, but female freedom?
 
-## Sources
+## What the sources say
+
+Primary sources and modern references are listed in the source section below when they are available in the article. Historical caution remains necessary: the article follows the limits of the cited material and avoids adding claims beyond the evidence already presented.
+
+## Further reading on Echoes of Antiquity
+
+- [Coup in Persia: Darius Against Gaumata and the Secret of Behistun](/articles/darius-gaumata-persian-coup-behistun/)
+- [From Ingots to Coins: The Journey to Being "Rich as Croesus](/articles/from-ingots-to-coins-rich-as-croesus/)
+
+## Sources and Historical Landmarks
 
 - Genesis 1-2.
 - *The Alphabet of Ben Sira*.

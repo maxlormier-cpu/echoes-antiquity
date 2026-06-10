@@ -10,7 +10,33 @@ heroImage: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjknfuSMMm
 heroAlt: "Faustina the Younger in the Roman imperial court, evoking controversy, influence, and deification under Marcus Aurelius"
 tags: ["Faustina the Younger", "Marcus Aurelius", "Roman Empire", "Imperial Women", "Deification"]
 featured: false
+seoTitle: "Faustina the Younger: Scandal, Power, and Deification in Marcus Aurelius's Rome"
+description: "Faustina the Younger, wife of Marcus Aurelius, stood between imperial motherhood, hostile rumors, military prestige, and posthumous deification."
+datePublished: "2025-12-03"
+dateModified: "2025-12-03"
+author: "Maximilien Lormier"
+heroCaption: "Faustina the Younger in the Roman imperial court, evoking controversy, influence, and deification under Marcus Aurelius"
 ---
+
+## Key answer
+
+This article examines Faustina the Younger: Scandal, Power, and Deification in Marcus Aurelius's Rome. Faustina the Younger, wife of Marcus Aurelius, stood between imperial motherhood, hostile rumors, military prestige, and posthumous deification. It places the subject in Roman Empire, with a focus on Rome and Cappadocia.
+
+## Why it matters
+
+This topic matters because it connects a specific ancient figure, event, myth, or institution to broader questions of power, memory, belief, and historical transmission. It also shows how the ancient past is shaped by the sources that preserve, distort, or silence it.
+
+## At a glance
+
+| Field | Details |
+| --- | --- |
+| Period | Roman Empire |
+| Place | Rome and Cappadocia |
+| Historical focus | Faustina the Younger: Scandal, Power, and Deification in Marcus Aurelius's Rome |
+| Article category | Roman World |
+| Source base | See the source list below. |
+
+[[toc]]
 
 ## A Woman at the Center of the Antonine Dynasty
 
@@ -72,7 +98,18 @@ Faustina navigated a world where female influence had to pass through marriage, 
 
 In that sense, Faustina the Younger was not merely a scandalous figure. She was a mirror held up to Roman power itself: its need for dynasties, its fear of women, its love of rumor, and its ability to turn a controversial life into divine memory.
 
-## Sources
+## What the sources say
+
+Primary sources and modern references are listed in the source section below when they are available in the article. Historical caution remains necessary: the article follows the limits of the cited material and avoids adding claims beyond the evidence already presented.
+
+## Further reading on Echoes of Antiquity
+
+- [Julia Drusilla: The Incestuous Tragedy with Caligula](/articles/caligula-drusilla-obsession-power-deification/)
+- [Greek and Trojan Origins of Rome: Arcadia, Hercules, Aeneas, and the Myths of the Eternal City](/articles/greek-trojan-founding-myths-ancient-rome/)
+- [Hannibal Crossing the Alps: Carthage's Impossible Road to Rome](/articles/hannibal-crossing-alps-carthage-rome/)
+- [Lucretia: The Dawn of the Roman Republic](/articles/lucretia-dawn-roman-republic/)
+
+## Sources and Historical Landmarks
 
 - *Historia Augusta*, [*Life of Marcus Aurelius*](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Historia_Augusta/Marcus_Aurelius/2%2A.html).
 - Encyclopaedia Britannica, [Annia Galeria Faustina](https://www.britannica.com/biography/Annia-Galeria-Faustina).

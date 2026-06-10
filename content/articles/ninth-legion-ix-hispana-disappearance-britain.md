@@ -9,7 +9,34 @@ heroImage: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1a8L-7lh
 heroAlt: "Elderly Roman soldier on the weary final march of the Ninth Legion in Britain"
 tags: ["IX Hispana", "Ninth Legion", "Roman Britain", "Hadrian", "Picts"]
 featured: false
+seoTitle: "The Ninth Legion: The Mysterious Disappearance of Rome's IX Hispana in Britain"
+description: "The mysterious disappearance of Rome's Ninth Legion in Britain remains one of history's most intriguing enigmas."
+datePublished: "2026-03-08"
+dateModified: "2026-03-08"
+author: "Maximilien Lormier"
+timelineYear: 120
+heroCaption: "Elderly Roman soldier on the weary final march of the Ninth Legion in Britain"
 ---
+
+## Key answer
+
+This article examines The Ninth Legion: The Mysterious Disappearance of Rome's IX Hispana in Britain. The mysterious disappearance of Rome's Ninth Legion in Britain remains one of history's most intriguing enigmas. It places the subject in Roman Empire, with a focus on Roman Britain.
+
+## Why it matters
+
+This topic matters because it connects a specific ancient figure, event, myth, or institution to broader questions of power, memory, belief, and historical transmission. It also shows how the ancient past is shaped by the sources that preserve, distort, or silence it.
+
+## At a glance
+
+| Field | Details |
+| --- | --- |
+| Period | Roman Empire |
+| Place | Roman Britain |
+| Historical focus | The Ninth Legion: The Mysterious Disappearance of Rome's IX Hispana in Britain |
+| Article category | Roman World |
+| Source base | See the source list below. |
+
+[[toc]]
 
 ## A Disappearance that Defies History
 
@@ -93,7 +120,18 @@ Some researchers think that a natural disaster or an epidemic could have decimat
 
 A prolonged famine could have decimated the unit before it even fought. Supply stocks, carried by mules, were vulnerable to guerrilla attacks. Diseases, encouraged by the damp climate and poor sanitary conditions, could spread within days. A discreet transfer of the unit, ordered by the Emperor, could explain the silence of British sources. But without tangible proof, these theories remain in the realm of speculation.
 
-## Sources
+## What the sources say
+
+Primary sources and modern references are listed in the source section below when they are available in the article. Historical caution remains necessary: the article follows the limits of the cited material and avoids adding claims beyond the evidence already presented.
+
+## Further reading on Echoes of Antiquity
+
+- [Julia Drusilla: The Incestuous Tragedy with Caligula](/articles/caligula-drusilla-obsession-power-deification/)
+- [Faustina the Younger: Scandal, Power, and Deification in Marcus Aurelius's Rome](/articles/faustina-younger-marcus-aurelius-scandal-deification/)
+- [Greek and Trojan Origins of Rome: Arcadia, Hercules, Aeneas, and the Myths of the Eternal City](/articles/greek-trojan-founding-myths-ancient-rome/)
+- [Hannibal Crossing the Alps: Carthage's Impossible Road to Rome](/articles/hannibal-crossing-alps-carthage-rome/)
+
+## Sources and Historical Landmarks
 
 - Simon Elliott, [*Roman Britain's Missing Legion: What Really Happened to IX Hispania*](https://www.casematepublishers.com/9781399006965/roman-britains-missing-legion/), Pen & Sword, 2021.
 - Livius.org, [Legio VIIII Hispana](https://www.livius.org/articles/legion/legio-viiii-hispana/), Jona Lendering.
