@@ -954,9 +954,13 @@ h3 {
   align-items: start;
   display: grid;
   gap: 2rem;
-  grid-template-columns: 250px minmax(0, 760px);
+  grid-template-columns: minmax(180px, 250px) minmax(0, 820px);
   justify-content: center;
   padding: 0 clamp(1.25rem, 4vw, 3rem) clamp(2rem, 5vw, 5rem);
+}
+
+.article-layout.no-sidebar {
+  grid-template-columns: minmax(0, 820px);
 }
 
 .toc {
@@ -976,7 +980,11 @@ h3 {
 .article-content {
   background: white;
   border: 1px solid var(--line);
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 820px;
   padding: clamp(1.25rem, 4vw, 3rem);
+  width: 100%;
 }
 
 .article-content h2,

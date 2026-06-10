@@ -62,6 +62,10 @@ function slugify(value) {
     .replace(/(^-|-$)/g, "");
 }
 
+function escapeRegExp(value = "") {
+  return String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
 function parseValue(raw) {
   const value = raw.trim();
   if (value === "true") return true;
@@ -309,7 +313,15 @@ function articleModifiedDate(article) {
 }
 
 function articleTocHeadings(article) {
-  const excluded = new Set(["key-answer", "why-it-matters", "at-a-glance", "table-of-contents", "author-bio"]);
+  const excluded = new Set([
+    "key-answer",
+    "why-it-matters",
+    "at-a-glance",
+    "table-of-contents",
+    "further-reading-on-echoes-of-antiquity",
+    "sources-and-historical-landmarks",
+    "author-bio"
+  ]);
   return article.headings.filter((heading) => !excluded.has(heading.id));
 }
 
@@ -882,15 +894,23 @@ function renderSharePanel(site, article) {
         </div>`;
 }
 
+function removeDuplicateHeroFigure(html, article) {
+  if (!article.heroImage) return html;
+  const heroSrc = escapeHtml(imageSrc(article.heroImage));
+  const pattern = new RegExp(`<figure class="article-figure">\\s*<a class="image-zoom" href="${escapeRegExp(heroSrc)}">[\\s\\S]*?<\\/figure>\\s*`);
+  return html.replace(pattern, "");
+}
+
 function renderArticle(site, article, articles, authors) {
   const related = articles
     .filter((item) => item.slug !== article.slug && (item.category === article.category || item.period === article.period))
     .slice(0, 3);
-  const contentHtml = article.html.replace("<!--ARTICLE_TOC-->", renderInlineToc(article));
   const hasInlineToc = article.html.includes("<!--ARTICLE_TOC-->");
   const toc = !hasInlineToc && article.headings.length
     ? `<aside class="toc"><strong>In this essay</strong>${article.headings.map((heading) => `<a href="#${heading.id}">${escapeHtml(heading.text)}</a>`).join("")}</aside>`
     : "";
+  const hasSidebar = Boolean(toc);
+  const contentHtml = removeDuplicateHeroFigure(article.html.replace("<!--ARTICLE_TOC-->", renderInlineToc(article)), article);
   const description = articleDescription(article);
   const published = articlePublishedDate(article);
   const body = `<article class="article-shell" data-article-slug="${escapeHtml(article.slug)}">
@@ -910,7 +930,7 @@ function renderArticle(site, article, articles, authors) {
       </figure>
     </header>
     ${adBlock(site, "articleTopSlot")}
-    <div class="article-layout">
+    <div class="article-layout${hasSidebar ? "" : " no-sidebar"}">
       ${toc}
       <div class="article-content">${contentHtml}${renderAuthorBio(article, authors)}</div>
     </div>
