@@ -14,8 +14,10 @@
   },
   "adsense": {
     "enabled": false,
-    "client": "ca-pub-XXXXXXXXXXXXXXXX",
+    "client": "ca-pub-8655917707205757",
+    "autoAds": false,
     "articleTopSlot": "",
+    "articleRailSlot": "",
     "articleMidSlot": "",
     "sidebarSlot": ""
   }

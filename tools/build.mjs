@@ -470,6 +470,17 @@ function renderTimelineNav() {
   </nav>`;
 }
 
+function hasConfiguredAdSlots(site) {
+  const adsense = site.adsense || {};
+  return ["articleTopSlot", "articleRailSlot", "articleMidSlot", "sidebarSlot"].some((slotName) => Boolean(adsense[slotName]));
+}
+
+function renderAdsenseScript(site) {
+  const adsense = site.adsense;
+  if (!adsense?.enabled || !adsense.client || (!adsense.autoAds && !hasConfiguredAdSlots(site))) return "";
+  return `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${escapeHtml(adsense.client)}" crossorigin="anonymous"></script>`;
+}
+
 function layout(site, page) {
   const title = page.title === site.name ? site.name : `${page.title} | ${site.name}`;
   const description = page.description || site.description;
@@ -497,6 +508,7 @@ function layout(site, page) {
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="stylesheet" href="/styles.css">
   <script src="/app.js" defer></script>
+  ${renderAdsenseScript(site)}
   ${page.structuredData ? `<script type="application/ld+json">${jsonForHtml(page.structuredData)}</script>` : ""}
 </head>
 <body>
@@ -935,7 +947,11 @@ function renderTopic(site, topic, articles, allArticles = articles) {
 
 function adBlock(site, slotName) {
   if (!site.adsense?.enabled || !site.adsense?.[slotName]) return "";
-  return `<div class="ad-slot"><ins class="adsbygoogle" data-ad-client="${escapeHtml(site.adsense.client)}" data-ad-slot="${escapeHtml(site.adsense[slotName])}"></ins></div>`;
+  return `<div class="ad-slot" aria-label="Advertisement">
+    <span class="ad-slot-label">Advertisement</span>
+    <ins class="adsbygoogle" style="display:block" data-ad-client="${escapeHtml(site.adsense.client)}" data-ad-slot="${escapeHtml(site.adsense[slotName])}" data-ad-format="auto" data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>`;
 }
 
 function renderSharePanel(site, article) {
@@ -1070,6 +1086,37 @@ async function writeSocial(site, articles) {
   }
 }
 
+async function readTextIfExists(filePath) {
+  try {
+    return await readFile(filePath, "utf8");
+  } catch (error) {
+    if (error.code === "ENOENT") return "";
+    throw error;
+  }
+}
+
+async function ensureStaticProtocolFiles(site) {
+  const publisherId = site.adsense?.publisherId || site.adsense?.client?.replace(/^ca-/, "");
+  if (publisherId) {
+    await writeFile(path.join(distDir, "ads.txt"), `google.com, ${publisherId}, DIRECT, f08c47fec0942fa0\n`);
+  }
+
+  const headersPath = path.join(distDir, "_headers");
+  let headers = await readTextIfExists(headersPath);
+  const requiredHeaders = [
+    ["/sitemap.xml", "Content-Type: application/xml; charset=utf-8"],
+    ["/robots.txt", "Content-Type: text/plain; charset=utf-8"],
+    ["/ads.txt", "Content-Type: text/plain; charset=utf-8"]
+  ];
+
+  for (const [route, contentType] of requiredHeaders) {
+    if (!headers.includes(route)) {
+      headers = `${headers.trimEnd()}\n\n${route}\n  ${contentType}\n`;
+    }
+  }
+  await writeFile(headersPath, `${headers.trimEnd()}\n`);
+}
+
 async function build() {
   const site = await loadSite();
   const authors = await loadAuthors();
@@ -1112,6 +1159,7 @@ async function build() {
     await writeFile(path.join(distDir, "rss.xml"), renderRss(site, articles));
     await writeFile(path.join(distDir, "sitemap.xml"), renderSitemap(site, articles));
     await writeFile(path.join(distDir, "robots.txt"), `User-agent: *\nAllow: /\nSitemap: ${absoluteUrl(site, "sitemap.xml")}\n`);
+    await ensureStaticProtocolFiles(site);
   }
   await writeSocial(site, articles);
   console.log(`Built ${articles.length} articles in ${path.relative(root, distDir)}`);
