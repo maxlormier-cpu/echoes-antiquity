@@ -334,6 +334,8 @@ function articleTocHeadings(article) {
     "at-a-glance",
     "table-of-contents",
     "further-reading-on-echoes-of-antiquity",
+    "key-takeaways",
+    "sources",
     "sources-and-historical-landmarks",
     "author-bio"
   ]);

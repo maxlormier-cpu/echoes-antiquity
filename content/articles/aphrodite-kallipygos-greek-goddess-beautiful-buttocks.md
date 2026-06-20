@@ -18,7 +18,6 @@ tags: ["Aphrodite Kallipygos", "Greek Sicily", "Syracuse", "Athenaeus", "Ancient
 featured: false
 format: "html"
 showHeroImage: false
-disableGeneratedToc: true
 ---
 
 <style>
@@ -135,23 +134,22 @@ disableGeneratedToc: true
 
   <p class="lh-intro">On a road in Greek Sicily, two young women stop a passerby. They wear no crown, carry no weapons, command no army, and come from no palace. Yet their quarrel will travel across the centuries. This is not a story of power, conquest, or revenge. It is a story of beauty, desire, and that invisible force the Greeks placed under the gaze of Aphrodite.</p>
 
-  <div class="lh-core">
-    <p>Aphrodite Kallipygos means “Aphrodite of the beautiful buttocks.” This startling story is preserved by Athenaeus of Naucratis in the <em>Deipnosophists</em>, Book XII. He tells how two daughters of a farmer from Syracuse argued over which of them had the more beautiful figure, how a young man was asked to judge between them, and how he then fell sick with love. His younger brother later fell in love with the other sister, and tradition claimed that the two young women, enriched by marriage, founded a sanctuary to Aphrodite Kallipygos. The anecdote matters because it reveals how the Greeks could bind bodily beauty, desire, social ascent, and religious memory into a single tale.</p>
-  </div>
+  <h2 id="key-answer">Key answer</h2>
+  <p>Aphrodite Kallipygos means “Aphrodite of the beautiful buttocks.” This startling story is preserved by Athenaeus of Naucratis in the <em>Deipnosophists</em>, Book XII. He tells how two daughters of a farmer from Syracuse argued over which of them had the more beautiful figure, how a young man was asked to judge between them, and how he then fell sick with love. His younger brother later fell in love with the other sister, and tradition claimed that the two young women, enriched by marriage, founded a sanctuary to Aphrodite Kallipygos.</p>
 
-  <nav class="lh-toc" style="background-color: #fffdf8; border-radius: 14px; border: 1px solid rgb(221, 210, 189); margin: 1.8em 0px 2.2em; padding: 1.1em 1.25em;">
-    <strong style="display: block; font-size: 1.08rem; margin-bottom: 0.6em; text-align: center;">Table of Contents</strong>
-    <ul>
-      <li><a href="#beauty-quarrel-greek-sicily">A Beauty Quarrel in Greek Sicily</a></li>
-      <li><a href="#modest-young-women-male-gaze">Two Modest Young Women Before the Male Gaze</a></li>
-      <li><a href="#eros-makes-you-sick">When Eros Makes You Sick</a></li>
-      <li><a href="#aphrodite-kallipygos-body-cult">Aphrodite Kallipygos: When the Body Becomes a Cult</a></li>
-      <li><a href="#greece-la-fontaine-centuries">From Greece to La Fontaine: A Story Across the Centuries</a></li>
-      <li><a href="#why-this-anecdote-still-fascinates">Why This Anecdote Still Fascinates Us</a></li>
-      <li><a href="#key-takeaways">Key Takeaways</a></li>
-      <li><a href="#sources">Sources</a></li>
-    </ul>
-  </nav>
+  <h2 id="why-it-matters">Why it matters</h2>
+  <p>The anecdote matters because it reveals how the Greeks could bind bodily beauty, desire, social ascent, and religious memory into a single tale. It also shows how a seemingly playful story can preserve serious evidence about the body, Aphrodite’s cult, local memory in Greek Sicily, and the ancient imagination of Eros.</p>
+
+  <h2 id="at-a-glance">At a glance</h2>
+  <table>
+    <tbody>
+      <tr><td>Period</td><td>Greek Sicily, remembered through later Greek literary tradition</td></tr>
+      <tr><td>Place</td><td>Syracuse, Sicily</td></tr>
+      <tr><td>Main figures</td><td>Aphrodite Kallipygos, two Syracusan sisters, two brothers, Athenaeus of Naucratis</td></tr>
+      <tr><td>Main source</td><td>Athenaeus, <em>The Deipnosophists</em>, Book XII</td></tr>
+      <tr><td>Historical issue</td><td>A local cult tradition preserved through anecdote, literary memory, and later reception</td></tr>
+    </tbody>
+  </table>
 
   <h2 id="beauty-quarrel-greek-sicily">A Beauty Quarrel in Greek Sicily</h2>
 
