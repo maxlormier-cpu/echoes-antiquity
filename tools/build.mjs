@@ -230,6 +230,21 @@ function markdownToHtml(markdown) {
   return { html: html.join("\n"), headings };
 }
 
+function textContent(html = "") {
+  return html
+    .replace(/<script[\s\S]*?<\/script>/gi, "")
+    .replace(/<style[\s\S]*?<\/style>/gi, "")
+    .replace(/<[^>]+>/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function htmlToHeadings(html = "") {
+  return [...html.matchAll(/<h2\b[^>]*id=["']([^"']+)["'][^>]*>([\s\S]*?)<\/h2>/gi)]
+    .map((match) => ({ id: match[1], text: textContent(match[2]) }))
+    .filter((heading) => heading.id && heading.text);
+}
+
 function formatDate(date) {
   return new Intl.DateTimeFormat("en", { month: "long", day: "numeric", year: "numeric" }).format(new Date(`${date}T12:00:00Z`));
 }
@@ -268,7 +283,7 @@ async function loadArticles() {
     const [meta, body] = parseFrontmatter(raw);
     const slug = meta.slug || file.replace(/\.md$/, "");
     const timelineYear = Number(meta.timelineYear ?? articleTimelineYears[slug]);
-    const rendered = markdownToHtml(body);
+    const rendered = meta.format === "html" ? { html: body, headings: htmlToHeadings(body) } : markdownToHtml(body);
     articles.push({
       ...meta,
       slug,
@@ -387,7 +402,7 @@ function splitArticleEditorialBlocks(article, html) {
     renderSidebarCard("Key answer", stripSectionHeading(sections["key-answer"]), "article-side-key"),
     renderSidebarCard("Why it matters", stripSectionHeading(sections["why-it-matters"]), "article-side-why"),
     renderSidebarCard("At a glance", compactAtAGlance(sections["at-a-glance"]), "article-side-glance"),
-    renderSidebarToc(article)
+    article.disableGeneratedToc ? "" : renderSidebarToc(article)
   ].filter(Boolean).join("\n");
   return { sidebar: sidebar ? `<aside class="article-sidebar" aria-label="Article guide">${sidebar}</aside>` : "", html: nextHtml };
 }
@@ -981,7 +996,7 @@ function renderArticle(site, article, articles, authors) {
     .slice(0, 3);
   const editorial = splitArticleEditorialBlocks(article, removeDuplicateHeroFigure(article.html, article));
   const fallbackTocHeadings = articleTocHeadings(article);
-  const toc = !editorial.sidebar && fallbackTocHeadings.length
+  const toc = !article.disableGeneratedToc && !editorial.sidebar && fallbackTocHeadings.length
     ? `<aside class="toc"><strong>In this essay</strong>${fallbackTocHeadings.map((heading) => `<a href="#${heading.id}">${escapeHtml(heading.text)}</a>`).join("")}</aside>`
     : "";
   const hasSidebar = Boolean(editorial.sidebar || toc);
@@ -997,12 +1012,12 @@ function renderArticle(site, article, articles, authors) {
         <p>${escapeHtml(article.excerpt)}</p>
         <div class="meta-row"><span>${formatDate(published)}</span><span>${article.readingMinutes} min read</span></div>
       </div>
-      <figure class="article-hero-figure">
+      ${article.heroImage && article.showHeroImage !== false ? `<figure class="article-hero-figure">
         <a class="image-zoom article-hero-image" href="${escapeHtml(imageSrc(article.heroImage))}">
           <img src="${escapeHtml(imageSrc(article.heroImage))}" alt="${escapeHtml(article.heroAlt || "")}"${article.heroCaption ? ` title="${escapeHtml(article.heroCaption)}"` : ""}>
         </a>
         ${article.heroCaption ? `<figcaption>${inlineMarkdown(article.heroCaption)}</figcaption>` : ""}
-      </figure>
+      </figure>` : ""}
     </header>
     ${adBlock(site, "articleTopSlot")}
     <div class="article-layout${hasSidebar ? "" : " no-sidebar"}">
