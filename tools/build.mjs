@@ -510,6 +510,12 @@ function renderAdsenseScript(site) {
   return `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${escapeHtml(adsense.client)}" crossorigin="anonymous"></script>`;
 }
 
+function renderAdsenseMeta(site) {
+  const adsense = site.adsense;
+  if (!adsense?.enabled || !adsense.client) return "";
+  return `<meta name="google-adsense-account" content="${escapeHtml(adsense.client)}">`;
+}
+
 function layout(site, page) {
   const title = page.title === site.name ? site.name : `${page.title} | ${site.name}`;
   const description = page.description || site.description;
@@ -523,6 +529,7 @@ function layout(site, page) {
   <title>${escapeHtml(title)}</title>
   <meta name="description" content="${escapeHtml(description)}">
   <meta name="google-site-verification" content="XMJF9tTfLXkHZKFZ2GnaWsmC5vsu3knQ_q9CUDMfRLM">
+  ${renderAdsenseMeta(site)}
   <meta property="og:title" content="${escapeHtml(title)}">
   <meta property="og:description" content="${escapeHtml(description)}">
   <meta property="og:type" content="${page.type || "website"}">
