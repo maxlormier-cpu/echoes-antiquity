@@ -34,6 +34,11 @@ const articleTimelineYears = {
   "thermopylae-leonidas-300-spartans-480-bc": -480,
   "wenamun-egypt-byblos-cedar-odyssey": -1070
 };
+const imageDimensions = {
+  "assets/articles/mousike-ancient-greece-western-music.jpg": { width: 1672, height: 941 },
+  "assets/articles/mousike-greek-music-education-lyre.jpg": { width: 1672, height: 941 },
+  "assets/articles/pythagoras-music-of-the-spheres.jpg": { width: 1536, height: 1024 }
+};
 const timelinePeriods = [
   { slug: "first-cities", label: "First Cities", start: -3200, end: -2000, description: "Writing, divine kingship, early Egypt, and the urban worlds of the ancient Near East." },
   { slug: "bronze-age-kingdoms", label: "Bronze Age Kingdoms", start: -2000, end: -1200, description: "Palaces, law codes, Minoan Crete, and the heroic memories of the Bronze Age." },
@@ -99,6 +104,12 @@ function isAbsoluteUrl(value = "") {
 function imageSrc(value = "") {
   if (!value) return "";
   return isAbsoluteUrl(value) ? value : `/${value.replace(/^\//, "")}`;
+}
+
+function imageDimensionAttrs(value = "") {
+  const key = value.replace(/^\//, "");
+  const dimensions = imageDimensions[key];
+  return dimensions ? ` width="${dimensions.width}" height="${dimensions.height}"` : "";
 }
 
 function inlineMarkdown(text) {
@@ -198,7 +209,7 @@ function markdownToHtml(markdown) {
       const [, alt, src, caption] = image;
       html.push(`<figure class="article-figure">
         <a class="image-zoom" href="${escapeHtml(imageSrc(src))}">
-          <img src="${escapeHtml(imageSrc(src))}" alt="${escapeHtml(alt)}"${caption ? ` title="${escapeHtml(caption)}"` : ""} loading="lazy">
+          <img src="${escapeHtml(imageSrc(src))}" alt="${escapeHtml(alt)}"${caption ? ` title="${escapeHtml(caption)}"` : ""}${imageDimensionAttrs(src)} loading="lazy" decoding="async">
         </a>
         ${caption ? `<figcaption>${inlineMarkdown(caption)}</figcaption>` : ""}
       </figure>`);
@@ -1016,7 +1027,7 @@ function renderArticle(site, article, articles, authors) {
       </div>
       ${article.heroImage && article.showHeroImage !== false ? `<figure class="article-hero-figure">
         <a class="image-zoom article-hero-image" href="${escapeHtml(imageSrc(article.heroImage))}">
-          <img src="${escapeHtml(imageSrc(article.heroImage))}" alt="${escapeHtml(article.heroAlt || "")}"${article.heroCaption ? ` title="${escapeHtml(article.heroCaption)}"` : ""}>
+          <img src="${escapeHtml(imageSrc(article.heroImage))}" alt="${escapeHtml(article.heroAlt || "")}"${article.heroCaption ? ` title="${escapeHtml(article.heroCaption)}"` : ""}${imageDimensionAttrs(article.heroImage)} decoding="async">
         </a>
         ${article.heroCaption ? `<figcaption>${inlineMarkdown(article.heroCaption)}</figcaption>` : ""}
       </figure>` : ""}
