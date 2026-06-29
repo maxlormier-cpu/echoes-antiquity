@@ -1187,7 +1187,7 @@ async function build() {
     }
     await writeFile(path.join(distDir, "rss.xml"), renderRss(site, articles));
     await writeFile(path.join(distDir, "sitemap.xml"), renderSitemap(site, articles));
-    await writeFile(path.join(distDir, "robots.txt"), `User-agent: *\nAllow: /\nSitemap: ${absoluteUrl(site, "sitemap.xml")}\n`);
+    await writeFile(path.join(distDir, "robots.txt"), `User-agent: *\nAllow: /\n\nSitemap: ${absoluteUrl(site, "sitemap.xml")}\n`);
     await ensureStaticProtocolFiles(site);
   }
   await writeSocial(site, articles);
