@@ -261,3 +261,11 @@ Perhaps this is why I love returning to the Greeks. Not to search for a perfect 
 - Plato and Aristotle show that the Greeks gave music moral and political power, even though their analyses must be placed within their philosophical context.
 - The Pythagorean tradition durably associated music and numbers, especially through the ratios of the octave, fifth, and fourth.
 - Western music does not directly descend from Greek music, but it inherits its way of thinking about music as order, culture, proportion, and memory.
+
+## Sources and further reading
+
+- Armand D’Angour, "Ancient Greece," in *The Oxford Handbook of Western Music and Philosophy*, Oxford Academic, 2020. [Read the source](https://academic.oup.com/edited-volume/34478/chapter/292527238)
+- Colette Hemingway and Seán Hemingway, "Music in Ancient Greece," *The Metropolitan Museum of Art, Heilbrunn Timeline of Art History*, 2001. [Read the source](https://www.metmuseum.org/essays/music-in-ancient-greece)
+- Ure Museum of Greek Archaeology, University of Reading, "The Well-tempered Lyre: Music education in ancient Greece." [Read the source](https://collections.reading.ac.uk/ure-museum/explore/online-exhibitions/well-tempered-lyre/)
+- Matthew Wright, review of Penelope Murray and Peter Wilson, *Music and the Muses: The Culture of Mousikē in the Classical Athenian City*, *Bryn Mawr Classical Review*, 2004. [Read the source](https://bmcr.brynmawr.edu/2004/2004.07.16/)
+- Edmund Stewart, "The Profession of Mousikē in Classical Greece," in *Skilled Labour and Professionalism in Ancient Greece and Rome*, Cambridge Core, 2020. [Read the source](https://www.cambridge.org/core/books/abs/skilled-labour-and-professionalism-in-ancient-greece-and-rome/profession-of-mousike-in-classical-greece/FBAEA750E2CB538996130737EB9CBD88)

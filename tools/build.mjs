@@ -347,6 +347,7 @@ function articleTocHeadings(article) {
     "further-reading-on-echoes-of-antiquity",
     "key-takeaways",
     "sources",
+    "sources-and-further-reading",
     "sources-and-historical-landmarks",
     "author-bio"
   ]);
